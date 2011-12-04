@@ -192,47 +192,8 @@ e9 = Esign('192.168.1.19', _port_count=8, _cluster_count=175, _data_size=data_si
 
 esigns = [e1,e2,e3,e4,e5,e6,e7,e8,e9]
 
-<<<<<<< HEAD
 delay = 0.1
 length = 175
-=======
-##for i in range(500):
-##  for e in esigns:
-##    led(e,True)
-##  time.sleep(0.01)
-##  for e in esigns:
-##    led(e,False)
-##  time.sleep(0.01)
-  
-e=e2
-delay = 0.1
-length = 175
-p=5
-#two_led_swipe(e,0,length, c(255,0,255),delay)
-#two_led_swipe(e,1,length, c(255,0,255),delay)
-#two_led_swipe(e,p,length, c(255,0,255),delay)
-
-#two_led_swip(e,3, length, c(255,0,255),delay)
-
-#two_led_swipe(e,4, length, c(255,0,255),delay)
-#two_led_swipe(e,5, length, c(255,0,255),delay)
-#two_led_swipe(e,6, length, c(255,0,255),delay) 
-#two_led_swipe(e,7, length, c(255,0,255),delay)
-
-#led(e,True)
-#led(e,False)
-
-#led_port(e, p, length, True)
-#led_port(e, p, length, False)
-
-#led_all_flash(e)
-#led_all_flash(e)
-#led_all_flash(e)
-#led_all_flash(e)
-#led_all_flash(e)
-
-#dimming_test(e)
->>>>>>> 10634666ff6aacb7de28181d98361feacb583f99
 
 from Tkinter import *
 
@@ -271,16 +232,6 @@ def port_flow_cb():
     two_led_swipe(esign,p-1,length, c(255,0,255),delay)
     print "FLOW!"
 
-<<<<<<< HEAD
-=======
-def port_orange_cb():
-	for esign in esigns:
-		esign.clear()
-		esign.set_colors(c(245,202,84))
-		esign.show()
-	print "ORANGE!"
-
->>>>>>> 10634666ff6aacb7de28181d98361feacb583f99
 def port_white_cb():
 	white=w.get()
 	for esign in esigns:
@@ -289,16 +240,6 @@ def port_white_cb():
 		esign.show()
 	print "WHITE!"
 
-<<<<<<< HEAD
-=======
-def port_yellow_cb():
-	for esign in esigns:
-		esign.clear()
-		esign.set_colors(c(250,231,182))
-		esign.show()
-	print "YELLOW!"
-
->>>>>>> 10634666ff6aacb7de28181d98361feacb583f99
 def port_rgb_cb():
 	_r = r.get()
 	_g = g.get()
@@ -335,13 +276,6 @@ w = Scale(master, from_=0, to=255, orient=HORIZONTAL)
 w.pack()
 white_button = Button(master, text="WHITE", command=port_white_cb)
 white_button.pack()
-<<<<<<< HEAD
-=======
-orange_button = Button(master, text="ORANGE", command=port_orange_cb)
-orange_button.pack()
-yellow_button = Button(master, text="YELLOW", command=port_yellow_cb)
-yellow_button.pack()
->>>>>>> 10634666ff6aacb7de28181d98361feacb583f99
 turnoff_button = Button(master, text="ALL OFF", command=esigns_clear_cb)
 turnoff_button.pack()
 
@@ -359,7 +293,3 @@ rgb_button.pack()
 
 mainloop()
 
-# orange
-# 245,202,84
-# 255-> 200
-# 250,231,182
