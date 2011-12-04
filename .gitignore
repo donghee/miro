@@ -1,0 +1,9 @@
+*.o
+*.d
+*~
+obj/
+*.bak
+*.exe
+miro/bin/data/movies
+miro/bin/miro
+*.pyc

@@ -1,0 +1,11 @@
+TODO:
+ 1. 우주영상 등 영상 파일 플레이
+ 2. X,Y 좌표값 + 이벤트 신호 받아 작동
+ 3. 마이크에 의한 이벤트
+ 4. 퇴장 영상 플레이
+ 5. 드로우 이벤트/영상 (측면)
+
+----
+참고
+ : http://www.donrelyea.com/hair_particle_drawing_OF.htm
+  http://www.quietless.com/kitchen/category/openframeworks/

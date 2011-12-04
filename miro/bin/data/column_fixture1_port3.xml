@@ -1,0 +1,110 @@
+<COLUMN>
+    <ID>0</ID>
+    <TOPCHANNEL>0</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>200</X>
+    <Y>608</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>114</RED>
+    <GREEN>224</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>1</ID>
+    <TOPCHANNEL>15</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>195</X>
+    <Y>602</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>117</RED>
+    <GREEN>233</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>2</ID>
+    <TOPCHANNEL>16</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>187</X>
+    <Y>604</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>118</RED>
+    <GREEN>239</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>3</ID>
+    <TOPCHANNEL>31</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>182</X>
+    <Y>595</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>126</RED>
+    <GREEN>247</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>4</ID>
+    <TOPCHANNEL>32</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>183</X>
+    <Y>586</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>128</RED>
+    <GREEN>249</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>5</ID>
+    <TOPCHANNEL>47</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>180</X>
+    <Y>574</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>137</RED>
+    <GREEN>252</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>6</ID>
+    <TOPCHANNEL>48</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>173</X>
+    <Y>567</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>102</RED>
+    <GREEN>162</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>7</ID>
+    <TOPCHANNEL>63</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>166</X>
+    <Y>563</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>104</RED>
+    <GREEN>166</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>8</ID>
+    <TOPCHANNEL>64</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>159</X>
+    <Y>561</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>100</RED>
+    <GREEN>167</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>9</ID>
+    <TOPCHANNEL>79</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>150</X>
+    <Y>551</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>117</RED>
+    <GREEN>185</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>

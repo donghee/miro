@@ -1,0 +1,4 @@
+ofxNetwork
+ofxThread
+ofxXmlSettings
+ofxOsc

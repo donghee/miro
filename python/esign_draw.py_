@@ -1,0 +1,156 @@
+import socket
+from array import *
+from crc import *
+import random
+import time
+
+#import os, sys; sys.path.insert(0, os.path.join("..",".."))
+from nodebox.graphics import canvas, rect
+
+def c(r,g,b):
+  return (r,g,b)
+
+class Esign():
+  def __init__(self, host, _port_count=8, _cluster_count=120, _data_size=1350):
+    self.host = host
+    self._port = 8001
+    self.s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+    self.ports_data = [0 for i in range(_port_count*_cluster_count*3)]
+    self.p = 0
+
+    self.port_count = _port_count
+    self.cluster_count = _cluster_count
+    self.data_size = _data_size
+
+  def random_color(self):
+    self.ports_data = [int(random.randint(0,100)) for i in range(self.port_count*self.cluster_count*3)]
+
+  def dimming(self):
+    self.ports_data = [self.p for i in range(self.port_count*self.cluster_count*3)]
+    self.p=self.p+1
+    if self.p == 255:
+      self.p=0
+
+  def background(self, grey):
+    self.ports_data = [grey for i in range(self.port_count*self.cluster_count*3)]
+
+
+  def set_color2(self, i, color):
+    self.ports_data[3*i] = color[0]
+    self.ports_data[3*i+1] = color[1]
+    self.ports_data[3*i+2] = color[2]
+
+  def set_color(self, port, y, color):
+    rgb_clusters = self.cluster_count*3
+  
+    self.ports_data[port+(y*3)] = color[0]
+    self.ports_data[port+(y*3)+1] = color[1]
+    self.ports_data[port+(y*3)+2] = color[2]
+
+    #self.ports_data[port*rgb_clusters+y*3] = color[0]
+    #self.ports_data[port*rgb_clusters+y*3+1] = color[1]
+    #self.ports_data[port*rgb_clusters+y*3+2] = color[2]
+  
+  def build_2packets(self,size):
+    return [(size&0xff), ((size&0xff00)>>8)] 
+
+  def get_start_position(self,sent_data_size):
+    return self.build_2packets(sent_data_size)
+
+  def get_data_size(self,data_size):
+    return self.build_2packets(data_size)
+
+  def get_port_length(self,port_length):
+    return self.build_2packets(port_length)
+
+  def get_cluster_count(self,cluster_count):
+    return self.build_2packets(cluster_count)
+
+  def packet(self,port_count, cluster_count, packet_size, packet_index, sent_datas, data_size):
+    p_frame_syn = [0x16,0x16,0x16,0x16]
+    p_id = [0x00,0x00]
+    p_command = [0x30]
+    p_length = self.build_2packets(data_size+28)
+    p_data_frame_index = [0x00,0x00]
+    p_image_mode = [0x01]
+    p_ports = [port_count]
+    _cluster_count = self.get_cluster_count(cluster_count)
+    p_port1 = _cluster_count
+    p_port2 = _cluster_count
+    p_port3 = _cluster_count
+    p_port4 = _cluster_count
+    p_port5 = _cluster_count
+    p_port6 = _cluster_count
+    p_port7 = _cluster_count
+    p_port8 = _cluster_count
+    p_image_time = [0x00,0x00]
+    p_packet_id = [(packet_size<<4)+packet_index]
+    p_reserved = [0x00]
+    p_start_position = [0x00,0x00]
+    p_start_position = self.get_start_position(sent_datas)
+    p_data_size = self.get_data_size(data_size)
+    _port_data = self.ports_data[sent_datas:sent_datas+data_size]
+    packet = p_id + p_command + p_length+ p_data_frame_index + p_image_mode + p_ports + p_port1 + p_port2 + p_port3 + p_port4 + p_port5 + p_port6 + p_port7+ p_port8 + p_image_time +p_packet_id + p_reserved+ p_start_position + p_data_size  + _port_data
+    _crc = build_crc_ccitt(packet)
+    p_crc = [ _crc >> 8, _crc & 0xff]
+    p_etx = [0xf5]
+    packet = p_frame_syn + packet + p_crc  + p_etx
+    p = array('B', packet)
+    self.s.sendto(p,(self.host,self._port))
+
+  def show(self):
+    _port_count=self.port_count
+    _cluster_count=self.cluster_count
+    _data_size=self.data_size
+
+    _remain_data = 3*_port_count*_cluster_count-(_data_size*2)
+
+    for i in range(3):
+      if i == 2:
+        e.packet(_port_count,_cluster_count,packet_size=3, packet_index=i+1, sent_datas=_data_size*i, data_size=_remain_data)
+        break
+      e.packet(_port_count,_cluster_count,packet_size=3, packet_index=i+1, sent_datas=_data_size*i, data_size=_data_size)
+
+e = Esign('192.168.1.11', _port_count=8, _cluster_count=120, _data_size=1350)
+
+def led_flow(color):
+  for i in range(8):
+    e.background(255)
+    e.show()
+    time.sleep(0.1) # 30 fps
+    e.background(0)
+    e.show()
+    time.sleep(0.1) # 30 fps
+
+def led_one(color):
+  e.background(0)
+  e.setColor(0,color);
+  e.show()
+
+def led_flow2(color):
+  for i in range(8):
+    for j in range(8):
+      e.background(0)
+      #e.set_color(i,j,color)
+      e.show()
+      #time.sleep(0.016) # 60 fps
+      time.sleep(0.032) # 30 fps
+  e.show()
+
+def random_pixels(color):
+  e.random_color()
+  e.show()
+
+def draw(canvas):
+  canvas.clear()
+  r = max(0,min(255, canvas.mouse.x/2))
+  g = max(0,min(255, canvas.mouse.y/2))
+  b = 0
+  #led_flow(c(r,g,b))
+  #random_pixels(c(r,g,b))
+  led_one(c(r,g,b))
+  print '.',
+
+canvas.size = 500,500
+canvas.run(draw)

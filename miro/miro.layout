@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.cpp" open="0" top="0" tabpos="23">
+		<Cursor position="1851" topLine="21" />
+	</File>
+	<File name="addons\ofxTuioWrapper\core\TuioClient.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="858" topLine="0" />
+	</File>
+	<File name="addons\ofxTuioWrapper\ofxTuioClient.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="1572" topLine="39" />
+	</File>
+	<File name="addons\ofxTuioWrapper\ofxTuioClient.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="22" />
+	</File>
+	<File name="addons\ofxhGui\src\hWidget.h" open="0" top="0" tabpos="0">
+		<Cursor position="1339" topLine="0" />
+	</File>
+	<File name="src\controlGui.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="28511" topLine="260" />
+	</File>
+	<File name="src\controlGui.h" open="1" top="0" tabpos="6">
+		<Cursor position="1448" topLine="36" />
+	</File>
+	<File name="src\crc.cpp" open="0" top="0" tabpos="22">
+		<Cursor position="2290" topLine="3" />
+	</File>
+	<File name="src\crc.h" open="0" top="0" tabpos="7">
+		<Cursor position="43" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="385" topLine="0" />
+	</File>
+	<File name="src\particle.cpp" open="0" top="0" tabpos="21">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\particle.h" open="1" top="0" tabpos="7">
+		<Cursor position="26" topLine="0" />
+	</File>
+	<File name="src\sensor.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1017" topLine="0" />
+	</File>
+	<File name="src\sensor.h" open="1" top="0" tabpos="9">
+		<Cursor position="235" topLine="0" />
+	</File>
+	<File name="src\subscene.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1272" topLine="22" />
+	</File>
+	<File name="src\subscene.h" open="1" top="0" tabpos="8">
+		<Cursor position="277" topLine="0" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1472" topLine="38" />
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="5">
+		<Cursor position="219" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

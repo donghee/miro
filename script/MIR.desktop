@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=MIR
+Comment=Miro for MIR
+Exec=/home/light/work/of/livepark/script/run_miro.sh
+Icon=/usr/share/pixmaps/ssh-askpass-gnome.png
+X-Ubuntu-Gettext-Domain=example-content

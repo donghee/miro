@@ -1,0 +1,2736 @@
+# depslib dependency file v1.0
+1321329846 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxmsainteractiveobject\src\ofxmsainteractiveobject.cpp
+	"ofxMSAInteractiveObject.h"
+	"ofMain.h"
+
+1321329846 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxmsainteractiveobject\src\ofxmsainteractiveobject.h
+	"ofMain.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\ofmain.h
+	"ofConstants.h"
+	"ofFileUtils.h"
+	"ofLog.h"
+	"ofSystemUtils.h"
+	"ofThread.h"
+	"ofURLFileLoader.h"
+	"ofUtils.h"
+	"ofBaseTypes.h"
+	"ofTypes.h"
+	"ofColor.h"
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofMath.h"
+	"ofVectorMath.h"
+	"ofSerial.h"
+	"ofArduino.h"
+	"ofFbo.h"
+	"ofGLRenderer.h"
+	"ofGLUtils.h"
+	"ofLight.h"
+	"ofMaterial.h"
+	"ofShader.h"
+	"ofTexture.h"
+	"ofVbo.h"
+	"ofVboMesh.h"
+	"ofCairoRenderer.h"
+	"ofGraphics.h"
+	"ofImage.h"
+	"ofPath.h"
+	"ofPixels.h"
+	"ofPolyline.h"
+	"ofRendererCollection.h"
+	"ofTessellator.h"
+	"ofTrueTypeFont.h"
+	"ofBaseApp.h"
+	"ofAppRunner.h"
+	"ofSoundStream.h"
+	"ofSoundPlayer.h"
+	"ofVideoGrabber.h"
+	"ofVideoPlayer.h"
+	"ofEvents.h"
+	"of3dUtils.h"
+	"ofCamera.h"
+	"ofEasyCam.h"
+	"ofMesh.h"
+	"ofNode.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofconstants.h
+	<TargetConditionals.h>
+	<windows.h>
+	"GL\glew.h"
+	"GL\wglew.h"
+	"glu.h"
+	<unistd.h>
+	"GL/glew.h"
+	<OpenGL/gl.h>
+	<ApplicationServices/ApplicationServices.h>
+	<unistd.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<unistd.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	"glu.h"
+	"tesselator.h"
+	<cstdlib>
+	<cstdio>
+	<cstdarg>
+	<cmath>
+	<ctime>
+	<cstdlib>
+	<string>
+	<iostream>
+	<vector>
+	<cstring>
+	<sstream>
+	<iomanip>
+	<fstream>
+
+1311249378 c:\work\of_prerelease_v007_win_cb\libs\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1311249378 c:\work\of_prerelease_v007_win_cb\libs\glew\include\gl\wglew.h
+	<windows.h>
+
+1311249378 c:\work\of_prerelease_v007_win_cb\libs\glu\include\glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1311249399 c:\work\of_prerelease_v007_win_cb\libs\tess2\include\tesselator.h
+	<TargetConditionals.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\offileutils.h
+	"ofConstants.h"
+	"Poco/File.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\file.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<vector>
+	"File_WINCE.h"
+	"Poco/File_WIN32U.h"
+	"Poco/File_WIN32.h"
+	"Poco/File_UNIX.h"
+	"Poco/File_VMS.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\foundation.h
+	"Poco/Config.h"
+	"Poco/Platform.h"
+	"Poco/Platform_WIN32.h"
+	"Poco/Platform_VMS.h"
+	"Poco/Platform_POSIX.h"
+	"Poco/Bugcheck.h"
+	"Poco/Types.h"
+	<string>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\config.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\platform.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_win32.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_vms.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\platform_posix.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\bugcheck.h
+	"Poco/Foundation.h"
+	<string>
+	<iostream>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\types.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\timestamp.h
+	"Poco/Foundation.h"
+	<ctime>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\file_wince.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\file_win32u.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\file_win32.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\file_unix.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\file_vms.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\oflog.h
+	"ofConstants.h"
+	"ofFileUtils.h"
+	"ofTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\types\oftypes.h
+	"ofConstants.h"
+	"ofColor.h"
+	<memory>
+	<tr1/memory>
+	"Poco/Mutex.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\types\ofcolor.h
+	<limits>
+	"ofMath.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmath.h
+	"ofPoint.h"
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\types\ofpoint.h
+	"ofVec3f.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec3f.h
+	"ofVec2f.h"
+	"ofVec4f.h"
+	"ofConstants.h"
+	<cmath>
+	<iostream>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec2f.h
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvec4f.h
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/ScopedLock.h"
+	"Poco/Mutex_WINCE.h"
+	"Poco/Mutex_WIN32.h"
+	"Poco/Mutex_POSIX.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\exception.h
+	"Poco/Foundation.h"
+	<stdexcept>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\scopedlock.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_wince.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\unwindows.h
+	<windows.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\mutex_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofsystemutils.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofthread.h
+	"ofConstants.h"
+	"ofTypes.h"
+	<process.h>
+	<pthread.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofurlfileloader.h
+	<deque>
+	<queue>
+	"ofThread.h"
+	"ofEvents.h"
+	"ofFileUtils.h"
+	"Poco/Condition.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\events\ofevents.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofEventUtils.h"
+	"ofxEventUtils.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\events\ofeventutils.h
+	"ofConstants.h"
+	"Poco/FIFOEvent.h"
+	"Poco/Delegate.h"
+	<stdio.h>
+	<stdlib.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\fifoevent.h
+	"Poco/AbstractEvent.h"
+	"Poco/FIFOStrategy.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/CompareFunctions.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\abstractevent.h
+	"Poco/Foundation.h"
+	"Poco/SingletonHolder.h"
+	"Poco/SharedPtr.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveMethod.h"
+	"Poco/Mutex.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\singletonholder.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\sharedptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/AtomicCounter.h"
+	<algorithm>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\atomiccounter.h
+	"Poco/Foundation.h"
+	"Poco/UnWindows.h"
+	<libkern/OSAtomic.h>
+	"Poco/Mutex.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\activeresult.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\event.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Event_WIN32.h"
+	"Poco/Event_POSIX.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\event_win32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\event_posix.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\refcountedobject.h
+	"Poco/Foundation.h"
+	"Poco/AtomicCounter.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\activemethod.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/ActiveRunnable.h"
+	"Poco/ActiveStarter.h"
+	"Poco/AutoPtr.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\activerunnable.h
+	"Poco/Foundation.h"
+	"Poco/ActiveResult.h"
+	"Poco/Runnable.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	"Poco/Exception.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\runnable.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\autoptr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\activestarter.h
+	"Poco/Foundation.h"
+	"Poco/ThreadPool.h"
+	"Poco/ActiveRunnable.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\threadpool.h
+	"Poco/Foundation.h"
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\thread.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Thread_WINCE.h"
+	"Poco/Thread_WIN32.h"
+	"Poco/Thread_POSIX.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_wince.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_win32.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\thread_posix.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<pthread.h>
+	<limits.h>
+	<sys/select.h>
+	<errno.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\signalhandler.h
+	"Poco/Foundation.h"
+	<vector>
+	<setjmp.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\fifostrategy.h
+	"Poco/NotificationStrategy.h"
+	<map>
+	<list>
+	<memory>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\notificationstrategy.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\abstractdelegate.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\comparefunctions.h
+	"Poco/Foundation.h"
+	<functional>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\delegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/FunctionDelegate.h"
+	"Poco/Expire.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\functiondelegate.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\expire.h
+	"Poco/Foundation.h"
+	"Poco/AbstractDelegate.h"
+	"Poco/Timestamp.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\condition.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/ScopedUnlock.h"
+	"Poco/Event.h"
+	"Poco/Exception.h"
+	<deque>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\poco\include\poco\scopedunlock.h
+	"Poco/Foundation.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\utils\ofutils.h
+	"ofConstants.h"
+	<bitset>
+	"ofLog.h"
+	<shellapi.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\types\ofbasetypes.h
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofConstants.h"
+	"ofColor.h"
+	"ofMesh.h"
+	"ofPixels.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\types\ofrectangle.h
+	"ofPoint.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofmesh.h
+	"ofVec3f.h"
+	"ofVec2f.h"
+	"ofColor.h"
+	"ofUtils.h"
+	"ofConstants.h"
+	"ofGLUtils.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofglutils.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpixels.h
+	"ofConstants.h"
+	"ofUtils.h"
+	"ofColor.h"
+	"ofMath.h"
+	<limits>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofvectormath.h
+	"ofVec2f.h"
+	"ofVec3f.h"
+	"ofVec4f.h"
+	"ofMatrix3x3.h"
+	"ofMatrix4x4.h"
+	"ofQuaternion.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmatrix3x3.h
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofmatrix4x4.h
+	"ofVec3f.h"
+	"ofVec4f.h"
+	"ofQuaternion.h"
+	"ofConstants.h"
+	<cmath>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\math\ofquaternion.h
+	"ofConstants.h"
+	"ofVec3f.h"
+	"ofVec4f.h"
+	<cmath>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\communication\ofserial.h
+	"ofConstants.h"
+	"ofTypes.h"
+	<termios.h>
+	<winbase.h>
+	<tchar.h>
+	<iostream>
+	<string.h>
+	<setupapi.h>
+	<regstr.h>
+	<winioctl.h>
+	<initguid.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\communication\ofarduino.h
+	<list>
+	<vector>
+	<string>
+	<iostream>
+	"ofEvents.h"
+	"ofSerial.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\offbo.h
+	"ofTexture.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\oftexture.h
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofBaseTypes.h"
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofglrenderer.h
+	"ofBaseTypes.h"
+	"ofPolyline.h"
+	<stack>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpolyline.h
+	"ofPoint.h"
+	"ofConstants.h"
+	<deque>
+	"ofRectangle.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\oflight.h
+	"ofNode.h"
+	"ofColor.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofnode.h
+	"ofVectorMath.h"
+	"of3dUtils.h"
+	"ofGraphics.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\3d\of3dutils.h
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofgraphics.h
+	"ofConstants.h"
+	"ofColor.h"
+	"ofPoint.h"
+	"ofMatrix4x4.h"
+	"ofRectangle.h"
+	"ofTypes.h"
+	"ofBaseTypes.h"
+	"ofGLRenderer.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofmaterial.h
+	"ofColor.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofshader.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofTexture.h"
+	<map>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofvbo.h
+	"ofConstants.h"
+	"ofVec3f.h"
+	"ofColor.h"
+	"ofUtils.h"
+	"ofMesh.h"
+	"ofGLUtils.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\gl\ofvbomesh.h
+	"ofMesh.h"
+	"ofVbo.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofcairorenderer.h
+	"cairo-features.h"
+	"cairo-pdf.h"
+	"cairo-svg.h"
+	"cairo.h"
+	<deque>
+	<stack>
+	"ofMatrix4x4.h"
+	"ofBaseTypes.h"
+	"ofPath.h"
+
+1311249368 c:\work\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-features.h
+
+1311249368 c:\work\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-pdf.h
+	"cairo.h"
+
+1311249368 c:\work\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo.h
+	"cairo-version.h"
+	"cairo-features.h"
+	"cairo-deprecated.h"
+
+1311249368 c:\work\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-version.h
+
+1311249368 c:\work\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-deprecated.h
+
+1311249368 c:\work\of_prerelease_v007_win_cb\libs\cairo\include\cairo\cairo-svg.h
+	"cairo.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofpath.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofColor.h"
+	"ofPolyline.h"
+	"ofBaseTypes.h"
+	"ofMesh.h"
+	"ofTessellator.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\oftessellator.h
+	"ofConstants.h"
+	"ofMesh.h"
+	"ofTypes.h"
+	"ofPolyline.h"
+	"tesselator.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofimage.h
+	"ofFileUtils.h"
+	"ofTexture.h"
+	"ofPixels.h"
+	"ofBaseTypes.h"
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\ofrenderercollection.h
+	"ofBaseTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\graphics\oftruetypefont.h
+	<vector>
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofConstants.h"
+	"ofPath.h"
+	"ofTexture.h"
+	"ofMesh.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\app\ofbaseapp.h
+	"ofPoint.h"
+	"ofEvents.h"
+	"ofBaseTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\app\ofapprunner.h
+	"ofConstants.h"
+	"ofPoint.h"
+	"ofRectangle.h"
+	"ofTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofsoundstream.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofBaseApp.h"
+	"ofTypes.h"
+	"ofRtAudioSoundStream.h"
+	"ofPASoundStream.h"
+	"ofxAndroidSoundStream.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofrtaudiosoundstream.h
+	"ofConstants.h"
+	"ofBaseSoundStream.h"
+	"ofTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofbasesoundstream.h
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofpasoundstream.h
+	"ofConstants.h"
+	"ofBaseSoundStream.h"
+	"ofTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofsoundplayer.h
+	"ofConstants.h"
+	"ofTypes.h"
+	"ofBaseTypes.h"
+	"ofBaseSoundPlayer.h"
+	"ofQuicktimeSoundPlayer.h"
+	"ofFmodSoundPlayer.h"
+	"ofOpenALSoundPlayer.h"
+	"ofxOpenALSoundPlayer.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofbasesoundplayer.h
+	"ofConstants.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\offmodsoundplayer.h
+	"ofConstants.h"
+	"ofBaseSoundPlayer.h"
+	"fmod.h"
+	"fmod_errors.h"
+
+1311249370 c:\work\of_prerelease_v007_win_cb\libs\fmodex\include\fmod.h
+	"fmod_codec.h"
+	"fmod_dsp.h"
+	"fmod_memoryinfo.h"
+
+1311249370 c:\work\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_codec.h
+
+1311249370 c:\work\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_dsp.h
+
+1311249372 c:\work\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_memoryinfo.h
+
+1311249370 c:\work\of_prerelease_v007_win_cb\libs\fmodex\include\fmod_errors.h
+	"fmod.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\sound\ofopenalsoundplayer.h
+	"ofConstants.h"
+	"ofBaseSoundPlayer.h"
+	"ofEvents.h"
+	"ofThread.h"
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+	<AL/al.h>
+	<AL/alc.h>
+	"kiss_fft.h"
+	"kiss_fftr.h"
+	<sndfile.h>
+	<mpg123.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofvideograbber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofTypes.h"
+	"ofiPhoneVideoGrabber.h"
+	"ofQuickTimeGrabber.h"
+	"ofDirectShowGrabber.h"
+	"ofGstVideoGrabber.h"
+	"ofxAndroidVideoGrabber.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofiphonevideograbber.h
+	"ofVideoGrabber.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofquicktimegrabber.h
+	"ofConstants.h"
+	"ofQtUtils.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofqtutils.h
+	"ofConstants.h"
+	<QuickTime/QuickTime.h>
+	<CoreServices/CoreServices.h>
+	<ApplicationServices/ApplicationServices.h>
+	<QTML.h>
+	<FixMath.h>
+	<QuickTimeComponents.h>
+	<TextUtils.h>
+	<MediaHandlers.h>
+
+1311249389 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\qtml.h
+	<MacTypes.h>
+	<MacMemory.h>
+	<MacWindows.h>
+	<OSUtils.h>
+	<Files.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\mactypes.h
+	<ConditionalMacros.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\conditionalmacros.h
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\macmemory.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\mixedmode.h
+	<MacTypes.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\macwindows.h
+	<MacTypes.h>
+	<Aliases.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<Drag.h>
+	<Events.h>
+	<Menus.h>
+	<MixedMode.h>
+	<QDOffscreen.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<Icons.h>
+	<MacErrors.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\aliases.h
+	<MacTypes.h>
+	<AppleTalk.h>
+	<Files.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\appletalk.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1311249388 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\osutils.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<MacMemory.h>
+	<Patches.h>
+	<DateTimeUtils.h>
+	<Endian.h>
+
+1311249389 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\patches.h
+	<MacTypes.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\datetimeutils.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\endian.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\files.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<OSUtils.h>
+	<TextCommon.h>
+	<UTCUtils.h>
+	<Finder.h>
+
+1311249394 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\textcommon.h
+	<MacTypes.h>
+
+1311249394 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\utcutils.h
+	<MacTypes.h>
+	<MacErrors.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\macerrors.h
+	<ConditionalMacros.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\finder.h
+	<MacTypes.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\appleevents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Notification.h>
+	<Events.h>
+	<AEDataModel.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\notification.h
+	<MacTypes.h>
+	<OSUtils.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\events.h
+	<OSUtils.h>
+	<Quickdraw.h>
+	<MacTypes.h>
+	<Endian.h>
+
+1311249391 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\quickdraw.h
+	<Components.h>
+	<MacTypes.h>
+	<MixedMode.h>
+	<QuickdrawText.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\components.h
+	<MacErrors.h>
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311249391 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\quickdrawtext.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\aedatamodel.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\collections.h
+	<MacTypes.h>
+	<MixedMode.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\drag.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+	<AppleEvents.h>
+	<Quickdraw.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\menus.h
+	<MacTypes.h>
+	<Events.h>
+	<Quickdraw.h>
+	<Fonts.h>
+	<TextCommon.h>
+	<Processes.h>
+	<AppleEvents.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\fonts.h
+	<MacTypes.h>
+	<Files.h>
+	<Quickdraw.h>
+	<TextCommon.h>
+	<MacErrors.h>
+
+1311249389 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\processes.h
+	<MacTypes.h>
+	<Events.h>
+	<Files.h>
+
+1311249389 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\qdoffscreen.h
+	<MacErrors.h>
+	<Quickdraw.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\icons.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Files.h>
+	<CodeFragments.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\codefragments.h
+	<MacTypes.h>
+	<Files.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\fixmath.h
+	<MacTypes.h>
+
+1311249389 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\quicktimecomponents.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<Sound.h>
+	<QuickTimeMusic.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\imagecompression.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<QDOffscreen.h>
+	<Components.h>
+	<StandardFile.h>
+
+1311249391 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\standardfile.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Files.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\dialogs.h
+	<MacTypes.h>
+	<MixedMode.h>
+	<Events.h>
+	<MacWindows.h>
+	<TextEdit.h>
+	<Controls.h>
+	<MacErrors.h>
+
+1311249394 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\textedit.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<MixedMode.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\controls.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Menus.h>
+	<TextEdit.h>
+	<Drag.h>
+	<Icons.h>
+	<Collections.h>
+	<MacErrors.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\movies.h
+	<Quickdraw.h>
+	<Aliases.h>
+	<Events.h>
+	<Menus.h>
+	<Components.h>
+	<ImageCompression.h>
+
+1311249394 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\video.h
+	<Quickdraw.h>
+
+1311249391 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\sound.h
+	<MacTypes.h>
+	<Dialogs.h>
+	<Components.h>
+	<MixedMode.h>
+	<Movies.h>
+
+1311249389 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\quicktimemusic.h
+	<Components.h>
+	<ImageCompression.h>
+	<Movies.h>
+	<Quickdraw.h>
+	<Video.h>
+	<MacMemory.h>
+	<Sound.h>
+	<Endian.h>
+
+1311249394 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\textutils.h
+	<MacTypes.h>
+	<NumberFormatting.h>
+	<StringCompare.h>
+	<DateTimeUtils.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\numberformatting.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<IntlResources.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\intlresources.h
+	<MacTypes.h>
+
+1311249391 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\stringcompare.h
+	<MacTypes.h>
+	<TextCommon.h>
+	<Script.h>
+
+1311249391 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\script.h
+	<MacTypes.h>
+	<Quickdraw.h>
+	<IntlResources.h>
+	<Events.h>
+
+1311249387 c:\work\of_prerelease_v007_win_cb\libs\quicktime\include\mediahandlers.h
+	<ConditionalMacros.h>
+	<MacTypes.h>
+	<Components.h>
+	<Movies.h>
+	<Sound.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofdirectshowgrabber.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"videoInput.h"
+
+1311249400 c:\work\of_prerelease_v007_win_cb\libs\videoinput\include\videoinput.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<wchar.h>
+	<windows.h>
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstvideograbber.h
+	"ofGstUtils.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstutils.h
+	"ofConstants.h"
+	<gst/gst.h>
+	<gst/app/gstappsink.h>
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofTypes.h"
+	"ofEvents.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofvideoplayer.h
+	"ofConstants.h"
+	"ofTexture.h"
+	"ofBaseTypes.h"
+	"ofTypes.h"
+	"ofGstVideoPlayer.h"
+	"ofQuickTimePlayer.h"
+	"ofiPhoneVideoPlayer.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofgstvideoplayer.h
+	"ofGstUtils.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofquicktimeplayer.h
+	"ofConstants.h"
+	"ofBaseTypes.h"
+	"ofPixels.h"
+	"ofQtUtils.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\video\ofiphonevideoplayer.h
+	"ofPixels.h"
+	"ofBaseTypes.h"
+	"ofTexture.h"
+	"ofVideoPlayer.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofcamera.h
+	"ofRectangle.h"
+	"ofAppRunner.h"
+	"ofNode.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\3d\ofeasycam.h
+	"ofCamera.h"
+	"ofEvents.h"
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxtcpclient.cpp
+	"ofxTCPClient.h"
+	"ofAppRunner.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxtcpclient.h
+	"ofConstants.h"
+	"ofxTCPManager.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxtcpmanager.h
+	"ofConstants.h"
+	<string.h>
+	<wchar.h>
+	<stdio.h>
+	<ctype.h>
+	<netdb.h>
+	<string.h>
+	<fcntl.h>
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	<signal.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxtcpmanager.cpp
+	"ofxTCPManager.h"
+	<stdio.h>
+	"ofxNetworkUtils.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxnetworkutils.h
+	<cerrno>
+	"ofConstants.h"
+	"ofUtils.h"
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxtcpserver.cpp
+	"ofxTCPServer.h"
+	"ofxTCPClient.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxtcpserver.h
+	"ofConstants.h"
+	"ofThread.h"
+	"ofxTCPManager.h"
+	<map>
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxudpmanager.cpp
+	"ofxUDPManager.h"
+	"ofxNetworkUtils.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxnetwork\src\ofxudpmanager.h
+	"ofConstants.h"
+	<string.h>
+	<wchar.h>
+	<stdio.h>
+	<ctype.h>
+	<netdb.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<netinet/tcp.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscbundle.cpp
+	"ofxOscBundle.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscbundle.h
+	<vector>
+	"ofxOscMessage.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscmessage.h
+	"ofxOscArg.h"
+	<vector>
+	<string>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscarg.h
+	"ofConstants.h"
+	<string>
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscmessage.cpp
+	"ofxOscMessage.h"
+	<iostream>
+	<assert.h>
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscreceiver.cpp
+	"ofxOscReceiver.h"
+	<pthread.h>
+	<iostream>
+	<assert.h>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscreceiver.h
+	<deque>
+	"ofMain.h"
+	<windows.h>
+	<pthread.h>
+	"OscTypes.h"
+	"OscPacketListener.h"
+	"UdpSocket.h"
+	"ofxOscMessage.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\osc\osctypes.h
+	<TargetConditionals.h>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\osc\oscpacketlistener.h
+	"OscReceivedElements.h"
+	"../ip/PacketListener.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\osc\oscreceivedelements.h
+	"OscTypes.h"
+	"OscException.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\osc\oscexception.h
+	<exception>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\ip\packetlistener.h
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\ip\udpsocket.h
+	"NetworkingUtils.h"
+	"IpEndpointName.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\ip\networkingutils.h
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\ip\ipendpointname.h
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscsender.cpp
+	"ofxOscSender.h"
+	"UdpSocket.h"
+	<assert.h>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxoscsender.h
+	<string>
+	"OscTypes.h"
+	"OscOutboundPacketStream.h"
+	"ofxOscBundle.h"
+	"ofxOscMessage.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\osc\oscoutboundpacketstream.h
+	"OscTypes.h"
+	"OscException.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuioclient.cpp
+	"TuioClient.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuioclient.h
+	<pthread.h>
+	<sys/time.h>
+	<windows.h>
+	<iostream>
+	<list>
+	<algorithm>
+	<cstring>
+	"osc/OscReceivedElements.h"
+	"osc/OscPrintReceivedElements.h"
+	"ip/UdpSocket.h"
+	"ip/PacketListener.h"
+	"TuioListener.h"
+	"TuioObject.h"
+	"TuioCursor.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\libs\oscpack\include\osc\oscprintreceivedelements.h
+	<iosfwd>
+	"OscReceivedElements.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuiolistener.h
+	"TuioObject.h"
+	"TuioCursor.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuioobject.h
+	<math.h>
+	"TuioContainer.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuiocontainer.h
+	<list>
+	<math.h>
+	"TuioPoint.h"
+	<iostream>
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuiopoint.h
+	"TuioTime.h"
+	<iostream>
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuiotime.h
+	<pthread.h>
+	<sys/time.h>
+	<windows.h>
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuiocursor.h
+	<math.h>
+	"TuioContainer.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuioserver.cpp
+	"TuioServer.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuioserver.h
+	<pthread.h>
+	<sys/time.h>
+	<windows.h>
+	<iostream>
+	<list>
+	<algorithm>
+	"osc/OscOutboundPacketStream.h"
+	"ip/NetworkingUtils.h"
+	"ip/UdpSocket.h"
+	"TuioObject.h"
+	"TuioCursor.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\core\tuiotime.cpp
+	"TuioTime.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\ofxtuioclient.cpp
+	"ofxTuioClient.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\ofxtuioclient.h
+	"ofMain.h"
+	"TuioListener.h"
+	"TuioClient.h"
+	"TuioObject.h"
+	"TuioCursor.h"
+	"TuioPoint.h"
+	<list>
+	<math.h>
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\ofxtuioserver.cpp
+	"ofxTuioServer.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxtuiowrapper\ofxtuioserver.h
+	"ofMain.h"
+	"TuioServer.h"
+	"TuioCursor.h"
+	<list>
+	<math.h>
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxxmlsettings\libs\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1311249946 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxxmlsettings\libs\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxxmlsettings\libs\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxxmlsettings\libs\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxxmlsettings\src\ofxxmlsettings.cpp
+	"ofxXmlSettings.h"
+	<vector>
+	<string>
+	<iostream>
+
+1311249946 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxxmlsettings\src\ofxxmlsettings.h
+	"ofMain.h"
+	<string.h>
+	"tinyxml.h"
+
+1320085484 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\h2dslider.cpp
+	"h2DSlider.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085490 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\h2dslider.h
+	"hWidget.h"
+
+1320085922 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hwidget.h
+	"hDrawingPrimitives.h"
+	"hObject.h"
+	<string>
+
+1320085624 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hdrawingprimitives.h
+	<string>
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hevents\hobject.h
+	<string>
+	<vector>
+	<map>
+
+1320085644 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hgui.h
+	"ofTrueTypeFont.h"
+	"hEvents.h"
+	<map>
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hevents\hevents.h
+	"hSymbols.h"
+	"hObject.h"
+	"ofEvents.h"
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hevents\hsymbols.h
+	<string>
+	<vector>
+	<map>
+
+1320085498 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\halert.cpp
+	"hAlert.h"
+	"hAlertLabel.h"
+	"hGui.h"
+	"ofMain.h"
+
+1320085504 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\halert.h
+	"hDialog.h"
+
+1320085604 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hdialog.h
+	"hPanel.h"
+
+1320085780 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hpanel.h
+	"hWidget.h"
+	<vector>
+
+1320085516 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\halertlabel.h
+	"hLabel.h"
+
+1320085704 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hlabel.h
+	"hWidget.h"
+
+1320085508 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\halertlabel.cpp
+	"hAlertLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085522 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hbutton.cpp
+	"hButton.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085530 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hbutton.h
+	"hWidget.h"
+
+1320085536 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hbuttonbox.cpp
+	"hButtonBox.h"
+	"hButtonBoxItem.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+
+1320085546 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hbuttonbox.h
+	"hListBox.h"
+
+1320085720 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hlistbox.h
+	"hPanel.h"
+
+1320085560 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hbuttonboxitem.h
+	"hListItem.h"
+
+1320085742 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hlistitem.h
+	"hWidget.h"
+
+1320085554 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hbuttonboxitem.cpp
+	"hButtonBoxItem.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085572 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hcheckbox.cpp
+	"hCheckBox.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085578 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hcheckbox.h
+	"hWidget.h"
+
+1320085584 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hcounterlabel.cpp
+	"hCounterLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085590 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hcounterlabel.h
+	"hLabel.h"
+
+1320085596 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hdialog.cpp
+	"hDialog.h"
+	"hLabel.h"
+	"hTextArea.h"
+	"hDialogButton.h"
+	"hGui.h"
+	<typeinfo>
+
+1320085876 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htextarea.h
+	"hWidget.h"
+	<vector>
+
+1320085618 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hdialogbutton.h
+	"hButton.h"
+
+1320085612 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hdialogbutton.cpp
+	"hDialogButton.h"
+	"hDialog.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320562204 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hdrawingprimitives.cpp
+	"ofConstants.h"
+	"ofGraphics.h"
+	"ofTrueTypeFont.h"
+
+1320558986 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hgui.cpp
+	"hGui_all.h"
+	"ofUtils.h"
+	"ofxXmlSettings.h"
+
+1319333996 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hgui_all.h
+	"hGui.h"
+	"h2DSlider.h"
+	"hAlert.h"
+	"hButton.h"
+	"hButtonBox.h"
+	"hCheckBox.h"
+	"hCounterLabel.h"
+	"hDialog.h"
+	"hLabel.h"
+	"hListBox.h"
+	"hMessageBox.h"
+	"hNumberBox.h"
+	"hPanel.h"
+	"hSlider.h"
+	"hSliderBox.h"
+	"hStatusBar.h"
+	"hTabBox.h"
+	"hTextArea.h"
+	"hTextBox.h"
+
+1320085754 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hmessagebox.h
+	"hDialog.h"
+
+1320085766 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hnumberbox.h
+	"hTextBox.h"
+
+1320085898 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htextbox.h
+	"hWidget.h"
+
+1320085816 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hslider.h
+	"hWidget.h"
+	"hTable.h"
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\htable\htable.h
+	<vector>
+
+1320085830 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hsliderbox.h
+	"hPanel.h"
+
+1320085842 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hstatusbar.h
+	"hLabel.h"
+
+1320085854 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htabbox.h
+	"hListBox.h"
+
+1320085686 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hincbutton.cpp
+	"hIncButton.h"
+	"hNumberBox.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085690 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hincbutton.h
+	"hButton.h"
+
+1320085696 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hlabel.cpp
+	"hLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320560196 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hlistbox.cpp
+	"hListBox.h"
+	"hPanel.h"
+	"hListItem.h"
+	"hScrollBar.h"
+	"hScrollButton.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+	<typeinfo>
+
+1320085794 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hscrollbar.h
+	"hWidget.h"
+
+1320085802 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hscrollbutton.h
+	"hButton.h"
+
+1320085730 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hlistitem.cpp
+	"hListItem.h"
+	"hLabel.h"
+	"hNumberBox.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085748 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hmessagebox.cpp
+	"hMessageBox.h"
+	"hTextArea.h"
+	"hGui.h"
+
+1320085760 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hnumberbox.cpp
+	"hNumberBox.h"
+	"hTextBox.h"
+	"hLabel.h"
+	"hSlider.h"
+	"hListBox.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085774 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hpanel.cpp
+	"hPanel.h"
+	"hGui.h"
+	"hNumberBox.h"
+	<typeinfo>
+	<iostream>
+
+1320561068 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hscrollbar.cpp
+	"hScrollBar.h"
+	"hScrollButton.h"
+	"hListBox.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320561084 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hscrollbutton.cpp
+	"hScrollButton.h"
+	"hScrollBar.h"
+	"hTScrollBar.h"
+	"hListBox.h"
+	"hTextArea.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085908 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htscrollbar.h
+	"hWidget.h"
+
+1320085810 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hslider.cpp
+	"hSlider.h"
+	"hLabel.h"
+	"hNumberBox.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085826 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hsliderbox.cpp
+	"hSliderBox.h"
+	"hSlider.h"
+	"hLabel.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+	<typeinfo>
+
+1320085836 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hstatusbar.cpp
+	"hStatusBar.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320559426 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htscrollbar.cpp
+	"hTScrollBar.h"
+	"hScrollButton.h"
+	"hTextArea.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320561232 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htabbox.cpp
+	"hTabBox.h"
+	"hTabBoxItem.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+	<typeinfo>
+
+1320085866 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htabboxitem.h
+	"hListItem.h"
+
+1320085860 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htabboxitem.cpp
+	"hTabBoxItem.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320561984 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htextarea.cpp
+	"hTextArea.h"
+	"hPanel.h"
+	"hTScrollBar.h"
+	"hScrollButton.h"
+	"hTextAreaButton.h"
+	"hEvents.h"
+	"hGui.h"
+
+1320085886 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htextareabutton.h
+	"hButton.h"
+
+1320085882 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htextareabutton.cpp
+	"hTextArea.h"
+	"hTextAreaButton.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085892 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\htextbox.cpp
+	"hTextBox.h"
+	"hLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1321803705 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhgui\src\hwidget.cpp
+	"hWidget.h"
+	"hPanel.h"
+	"hGui.h"
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hevents\hevents.cpp
+	"hEvents.h"
+	"hStringUtils.h"
+	<sstream>
+	"ofUtils.h"
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hstringutils\hstringutils.h
+	<string>
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hevents\hsymbols.cpp
+	"hSymbols.h"
+	<iostream>
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\hstringutils\hstringutils.cpp
+	"hStringUtils.h"
+	"string.h"
+	<sstream>
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxhutils\src\htable\htable.cpp
+	"hTable.h"
+	<iostream>
+	<float.h>
+	<float.h>
+
+1322564618 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\controlgui.cpp
+	"controlGui.h"
+
+1322559833 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\controlgui.h
+	"ofMain.h"
+	"hEvents.h"
+	"hObject.h"
+	"hGui_all.h"
+
+1321783452 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\crc.cpp
+	"crc.h"
+
+1321322523 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\crc.h
+	"ofMain.h"
+
+1322538670 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esigncolumn.cpp
+	"esignColumn.h"
+
+1322469525 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esigncolumn.h
+	"ofMain.h"
+	"esignLed.h"
+
+1322469549 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignled.h
+	"ofMain.h"
+
+1322473852 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignfixture.cpp
+	"esignFixture.h"
+
+1322469629 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignfixture.h
+	"ofMain.h"
+	"esignUdp.h"
+	"esignPort.h"
+	"esignLed.h"
+
+1322636293 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignudp.h
+	"ofMain.h"
+	"ofxNetwork.h"
+	"crc.h"
+
+1311249342 c:\work\of_prerelease_v007_win_cb\addons\ofxnetwork\src\ofxnetwork.h
+	"ofxTCPClient.h"
+	"ofxTCPManager.h"
+	"ofxTCPServer.h"
+	"ofxUDPManager.h"
+
+1311249342 c:\work\of_prerelease_v007_win_cb\addons\ofxnetwork\src\ofxtcpclient.h
+	"ofConstants.h"
+	"ofxTCPManager.h"
+
+1311249342 c:\work\of_prerelease_v007_win_cb\addons\ofxnetwork\src\ofxtcpmanager.h
+	"ofConstants.h"
+	<string.h>
+	<wchar.h>
+	<stdio.h>
+	<ctype.h>
+	<netdb.h>
+	<string.h>
+	<fcntl.h>
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	<signal.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1311249342 c:\work\of_prerelease_v007_win_cb\addons\ofxnetwork\src\ofxtcpserver.h
+	"ofConstants.h"
+	"ofThread.h"
+	"ofxTCPManager.h"
+	<map>
+
+1311249342 c:\work\of_prerelease_v007_win_cb\addons\ofxnetwork\src\ofxudpmanager.h
+	"ofConstants.h"
+	<string.h>
+	<wchar.h>
+	<stdio.h>
+	<ctype.h>
+	<netdb.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<netinet/tcp.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1322469583 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignport.h
+	"ofMain.h"
+	"esignColumn.h"
+	"esignLed.h"
+	"ofxXmlSettings.h"
+	"esignUdp.h"
+
+1322469537 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignled.cpp
+	"esignLed.h"
+
+1322470171 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignport.cpp
+	"esignPort.h"
+	"setting.h"
+
+1322469706 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\setting.h
+	"ofMain.h"
+	"ofxXmlSettings.h"
+	"esignColumn.h"
+
+1322636289 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\esignudp.cpp
+	"esignUdp.h"
+
+1322549454 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1322562682 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\testapp.h
+	"ofMain.h"
+	"sceneEvent.h"
+	"sceneManager.h"
+	"controlGui.h"
+	"movieScene.h"
+	"mazeLight.h"
+
+1322573445 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\sceneevent.h
+	"ofMain.h"
+	"ofxTuioClient.h"
+	"ofxOsc.h"
+	"sceneManager.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\addons\ofxosc\src\ofxosc.h
+	"ofxOscArg.h"
+	"ofxOscMessage.h"
+	"ofxOscSender.h"
+	"ofxOscReceiver.h"
+
+1322573253 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\scenemanager.h
+	"ofMain.h"
+	"movieScene.h"
+
+1322547442 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\moviescene.h
+	"ofMain.h"
+
+1322542712 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\mazelight.h
+	"esignFixture.h"
+	"movieScene.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\app\ofappglutwindow.h
+	"ofConstants.h"
+	"ofAppBaseWindow.h"
+	"ofEvents.h"
+	"ofTypes.h"
+
+1311249379 c:\work\of_prerelease_v007_win_cb\libs\openframeworks\app\ofappbasewindow.h
+	"ofPoint.h"
+	"ofTypes.h"
+
+1322542703 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\mazelight.cpp
+	"mazeLight.h"
+
+1322548318 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\moviescene.cpp
+	"movieScene.h"
+
+1321532764 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\particle.cpp
+
+1322557271 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\scenemanager.cpp
+	"sceneManager.h"
+
+1322469644 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\setting.cpp
+	"setting.h"
+
+1322395467 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\subscene.cpp
+	"subscene.h"
+
+1322395467 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\subscene.h
+	"ofMain.h"
+	"particle.h"
+
+1321546554 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\particle.h
+
+1322671785 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\sceneevent.cpp
+	"sceneEvent.h"
+
+1322660815 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\testapp.cpp
+	"testApp.h"
+
+1322662631 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\effectscene.cpp
+	"effectScene.h"
+
+1322680582 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro\src\effectscene.h
+
+1321329846 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxmsainteractiveobject\src\ofxmsainteractiveobject.cpp
+	"ofxMSAInteractiveObject.h"
+	"ofMain.h"
+
+1321329846 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxmsainteractiveobject\src\ofxmsainteractiveobject.h
+	"ofMain.h"
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxtcpclient.cpp
+	"ofxTCPClient.h"
+	"ofAppRunner.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxtcpclient.h
+	"ofConstants.h"
+	"ofxTCPManager.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxtcpmanager.h
+	"ofConstants.h"
+	<string.h>
+	<wchar.h>
+	<stdio.h>
+	<ctype.h>
+	<netdb.h>
+	<string.h>
+	<fcntl.h>
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<sys/signal.h>
+	<signal.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxtcpmanager.cpp
+	"ofxTCPManager.h"
+	<stdio.h>
+	"ofxNetworkUtils.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxnetworkutils.h
+	<cerrno>
+	"ofConstants.h"
+	"ofUtils.h"
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxtcpserver.cpp
+	"ofxTCPServer.h"
+	"ofxTCPClient.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxtcpserver.h
+	"ofConstants.h"
+	"ofThread.h"
+	"ofxTCPManager.h"
+	<map>
+
+1311249935 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxudpmanager.cpp
+	"ofxUDPManager.h"
+	"ofxNetworkUtils.h"
+
+1311249935 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxnetwork\src\ofxudpmanager.h
+	"ofConstants.h"
+	<string.h>
+	<wchar.h>
+	<stdio.h>
+	<ctype.h>
+	<netdb.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/ioctl.h>
+	<netinet/tcp.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscbundle.cpp
+	"ofxOscBundle.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscbundle.h
+	<vector>
+	"ofxOscMessage.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscmessage.h
+	"ofxOscArg.h"
+	<vector>
+	<string>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscarg.h
+	"ofConstants.h"
+	<string>
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscmessage.cpp
+	"ofxOscMessage.h"
+	<iostream>
+	<assert.h>
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscreceiver.cpp
+	"ofxOscReceiver.h"
+	<pthread.h>
+	<iostream>
+	<assert.h>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscreceiver.h
+	<deque>
+	"ofMain.h"
+	<windows.h>
+	<pthread.h>
+	"OscTypes.h"
+	"OscPacketListener.h"
+	"UdpSocket.h"
+	"ofxOscMessage.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\osc\osctypes.h
+	<TargetConditionals.h>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\osc\oscpacketlistener.h
+	"OscReceivedElements.h"
+	"../ip/PacketListener.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\osc\oscreceivedelements.h
+	"OscTypes.h"
+	"OscException.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\osc\oscexception.h
+	<exception>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\ip\packetlistener.h
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\ip\udpsocket.h
+	"NetworkingUtils.h"
+	"IpEndpointName.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\ip\networkingutils.h
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\ip\ipendpointname.h
+
+1311249945 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscsender.cpp
+	"ofxOscSender.h"
+	"UdpSocket.h"
+	<assert.h>
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxoscsender.h
+	<string>
+	"OscTypes.h"
+	"OscOutboundPacketStream.h"
+	"ofxOscBundle.h"
+	"ofxOscMessage.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\osc\oscoutboundpacketstream.h
+	"OscTypes.h"
+	"OscException.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuioclient.cpp
+	"TuioClient.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuioclient.h
+	<pthread.h>
+	<sys/time.h>
+	<windows.h>
+	<iostream>
+	<list>
+	<algorithm>
+	<cstring>
+	"osc/OscReceivedElements.h"
+	"osc/OscPrintReceivedElements.h"
+	"ip/UdpSocket.h"
+	"ip/PacketListener.h"
+	"TuioListener.h"
+	"TuioObject.h"
+	"TuioCursor.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\libs\oscpack\include\osc\oscprintreceivedelements.h
+	<iosfwd>
+	"OscReceivedElements.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuiolistener.h
+	"TuioObject.h"
+	"TuioCursor.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuioobject.h
+	<math.h>
+	"TuioContainer.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuiocontainer.h
+	<list>
+	<math.h>
+	"TuioPoint.h"
+	<iostream>
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuiopoint.h
+	"TuioTime.h"
+	<iostream>
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuiotime.h
+	<pthread.h>
+	<sys/time.h>
+	<windows.h>
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuiocursor.h
+	<math.h>
+	"TuioContainer.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuioserver.cpp
+	"TuioServer.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuioserver.h
+	<pthread.h>
+	<sys/time.h>
+	<windows.h>
+	<iostream>
+	<list>
+	<algorithm>
+	"osc/OscOutboundPacketStream.h"
+	"ip/NetworkingUtils.h"
+	"ip/UdpSocket.h"
+	"TuioObject.h"
+	"TuioCursor.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\core\tuiotime.cpp
+	"TuioTime.h"
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\ofxtuioclient.cpp
+	"ofxTuioClient.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\ofxtuioclient.h
+	"ofMain.h"
+	"TuioListener.h"
+	"TuioClient.h"
+	"TuioObject.h"
+	"TuioCursor.h"
+	"TuioPoint.h"
+	<list>
+	<math.h>
+
+1321185404 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\ofxtuioserver.cpp
+	"ofxTuioServer.h"
+
+1321185404 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxtuiowrapper\ofxtuioserver.h
+	"ofMain.h"
+	"TuioServer.h"
+	"TuioCursor.h"
+	<list>
+	<math.h>
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxxmlsettings\libs\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1311249946 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxxmlsettings\libs\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxxmlsettings\libs\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxxmlsettings\libs\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1311249946 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxxmlsettings\src\ofxxmlsettings.cpp
+	"ofxXmlSettings.h"
+	<vector>
+	<string>
+	<iostream>
+
+1311249946 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxxmlsettings\src\ofxxmlsettings.h
+	"ofMain.h"
+	<string.h>
+	"tinyxml.h"
+
+1320085484 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\h2dslider.cpp
+	"h2DSlider.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085490 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\h2dslider.h
+	"hWidget.h"
+
+1320085922 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hwidget.h
+	"hDrawingPrimitives.h"
+	"hObject.h"
+	<string>
+
+1320085624 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hdrawingprimitives.h
+	<string>
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hevents\hobject.h
+	<string>
+	<vector>
+	<map>
+
+1320085644 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hgui.h
+	"ofTrueTypeFont.h"
+	"hEvents.h"
+	<map>
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hevents\hevents.h
+	"hSymbols.h"
+	"hObject.h"
+	"ofEvents.h"
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hevents\hsymbols.h
+	<string>
+	<vector>
+	<map>
+
+1320085498 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\halert.cpp
+	"hAlert.h"
+	"hAlertLabel.h"
+	"hGui.h"
+	"ofMain.h"
+
+1320085504 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\halert.h
+	"hDialog.h"
+
+1320085604 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hdialog.h
+	"hPanel.h"
+
+1320085780 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hpanel.h
+	"hWidget.h"
+	<vector>
+
+1320085516 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\halertlabel.h
+	"hLabel.h"
+
+1320085704 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hlabel.h
+	"hWidget.h"
+
+1320085508 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\halertlabel.cpp
+	"hAlertLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085522 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hbutton.cpp
+	"hButton.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085530 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hbutton.h
+	"hWidget.h"
+
+1320085536 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hbuttonbox.cpp
+	"hButtonBox.h"
+	"hButtonBoxItem.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+
+1320085546 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hbuttonbox.h
+	"hListBox.h"
+
+1320085720 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hlistbox.h
+	"hPanel.h"
+
+1320085560 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hbuttonboxitem.h
+	"hListItem.h"
+
+1320085742 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hlistitem.h
+	"hWidget.h"
+
+1320085554 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hbuttonboxitem.cpp
+	"hButtonBoxItem.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085572 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hcheckbox.cpp
+	"hCheckBox.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085578 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hcheckbox.h
+	"hWidget.h"
+
+1320085584 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hcounterlabel.cpp
+	"hCounterLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085590 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hcounterlabel.h
+	"hLabel.h"
+
+1320085596 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hdialog.cpp
+	"hDialog.h"
+	"hLabel.h"
+	"hTextArea.h"
+	"hDialogButton.h"
+	"hGui.h"
+	<typeinfo>
+
+1320085876 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htextarea.h
+	"hWidget.h"
+	<vector>
+
+1320085618 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hdialogbutton.h
+	"hButton.h"
+
+1320085612 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hdialogbutton.cpp
+	"hDialogButton.h"
+	"hDialog.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320562204 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hdrawingprimitives.cpp
+	"ofConstants.h"
+	"ofGraphics.h"
+	"ofTrueTypeFont.h"
+
+1320558986 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hgui.cpp
+	"hGui_all.h"
+	"ofUtils.h"
+	"ofxXmlSettings.h"
+
+1319333996 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hgui_all.h
+	"hGui.h"
+	"h2DSlider.h"
+	"hAlert.h"
+	"hButton.h"
+	"hButtonBox.h"
+	"hCheckBox.h"
+	"hCounterLabel.h"
+	"hDialog.h"
+	"hLabel.h"
+	"hListBox.h"
+	"hMessageBox.h"
+	"hNumberBox.h"
+	"hPanel.h"
+	"hSlider.h"
+	"hSliderBox.h"
+	"hStatusBar.h"
+	"hTabBox.h"
+	"hTextArea.h"
+	"hTextBox.h"
+
+1320085754 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hmessagebox.h
+	"hDialog.h"
+
+1320085766 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hnumberbox.h
+	"hTextBox.h"
+
+1320085898 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htextbox.h
+	"hWidget.h"
+
+1320085816 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hslider.h
+	"hWidget.h"
+	"hTable.h"
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\htable\htable.h
+	<vector>
+
+1320085830 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hsliderbox.h
+	"hPanel.h"
+
+1320085842 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hstatusbar.h
+	"hLabel.h"
+
+1320085854 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htabbox.h
+	"hListBox.h"
+
+1320085686 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hincbutton.cpp
+	"hIncButton.h"
+	"hNumberBox.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085690 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hincbutton.h
+	"hButton.h"
+
+1320085696 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hlabel.cpp
+	"hLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320560196 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hlistbox.cpp
+	"hListBox.h"
+	"hPanel.h"
+	"hListItem.h"
+	"hScrollBar.h"
+	"hScrollButton.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+	<typeinfo>
+
+1320085794 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hscrollbar.h
+	"hWidget.h"
+
+1320085802 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hscrollbutton.h
+	"hButton.h"
+
+1320085730 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hlistitem.cpp
+	"hListItem.h"
+	"hLabel.h"
+	"hNumberBox.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085748 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hmessagebox.cpp
+	"hMessageBox.h"
+	"hTextArea.h"
+	"hGui.h"
+
+1320085760 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hnumberbox.cpp
+	"hNumberBox.h"
+	"hTextBox.h"
+	"hLabel.h"
+	"hSlider.h"
+	"hListBox.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085774 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hpanel.cpp
+	"hPanel.h"
+	"hGui.h"
+	"hNumberBox.h"
+	<typeinfo>
+	<iostream>
+
+1320561068 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hscrollbar.cpp
+	"hScrollBar.h"
+	"hScrollButton.h"
+	"hListBox.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320561084 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hscrollbutton.cpp
+	"hScrollButton.h"
+	"hScrollBar.h"
+	"hTScrollBar.h"
+	"hListBox.h"
+	"hTextArea.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085908 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htscrollbar.h
+	"hWidget.h"
+
+1320085810 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hslider.cpp
+	"hSlider.h"
+	"hLabel.h"
+	"hNumberBox.h"
+	"hGui.h"
+	"hEvents.h"
+	"ofxXmlSettings.h"
+
+1320085826 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hsliderbox.cpp
+	"hSliderBox.h"
+	"hSlider.h"
+	"hLabel.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+	<typeinfo>
+
+1320085836 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hstatusbar.cpp
+	"hStatusBar.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320559426 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htscrollbar.cpp
+	"hTScrollBar.h"
+	"hScrollButton.h"
+	"hTextArea.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320561232 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htabbox.cpp
+	"hTabBox.h"
+	"hTabBoxItem.h"
+	"hGui.h"
+	"ofxXmlSettings.h"
+	<typeinfo>
+
+1320085866 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htabboxitem.h
+	"hListItem.h"
+
+1320085860 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htabboxitem.cpp
+	"hTabBoxItem.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320561984 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htextarea.cpp
+	"hTextArea.h"
+	"hPanel.h"
+	"hTScrollBar.h"
+	"hScrollButton.h"
+	"hTextAreaButton.h"
+	"hEvents.h"
+	"hGui.h"
+
+1320085886 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htextareabutton.h
+	"hButton.h"
+
+1320085882 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htextareabutton.cpp
+	"hTextArea.h"
+	"hTextAreaButton.h"
+	"hGui.h"
+	"hEvents.h"
+
+1320085892 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\htextbox.cpp
+	"hTextBox.h"
+	"hLabel.h"
+	"hGui.h"
+	"hEvents.h"
+
+1321803705 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhgui\src\hwidget.cpp
+	"hWidget.h"
+	"hPanel.h"
+	"hGui.h"
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hevents\hevents.cpp
+	"hEvents.h"
+	"hStringUtils.h"
+	<sstream>
+	"ofUtils.h"
+
+1321867077 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hstringutils\hstringutils.h
+	<string>
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hevents\hsymbols.cpp
+	"hSymbols.h"
+	<iostream>
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\hstringutils\hstringutils.cpp
+	"hStringUtils.h"
+	"string.h"
+	<sstream>
+
+1321867077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxhutils\src\htable\htable.cpp
+	"hTable.h"
+	<iostream>
+	<float.h>
+	<float.h>
+
+1321783452 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\crc.cpp
+	"crc.h"
+
+1321322523 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\crc.h
+	"ofMain.h"
+
+1322549454 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\main.cpp
+	"ofMain.h"
+	"testApp.h"
+	"ofAppGlutWindow.h"
+
+1322729965 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\testapp.h
+	"ofMain.h"
+	"sceneEvent.h"
+	"sceneManager.h"
+	"controlGui.h"
+	"movieScene.h"
+	"mazeLight.h"
+	<stdexcept>
+
+1322573445 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\sceneevent.h
+	"ofMain.h"
+	"ofxTuioClient.h"
+	"ofxOsc.h"
+	"sceneManager.h"
+
+1311249945 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\addons\ofxosc\src\ofxosc.h
+	"ofxOscArg.h"
+	"ofxOscMessage.h"
+	"ofxOscSender.h"
+	"ofxOscReceiver.h"
+
+1322915928 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\scenemanager.h
+	"ofMain.h"
+	"sceneType.h"
+	"movieScene.h"
+	"effectScene.h"
+	"effectSceneShout.h"
+
+1322729021 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\scenetype.h
+
+1322912083 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\moviescene.h
+	"ofMain.h"
+
+1322727425 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\effectscene.h
+	"sceneType.h"
+
+1322728350 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\effectsceneshout.h
+	"ofMain.h"
+	"effectScene.h"
+	<vector>
+
+1322770930 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\controlgui.h
+	"ofMain.h"
+	"hEvents.h"
+	"hObject.h"
+	"hGui_all.h"
+	"esignColumn.h"
+
+1322770974 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esigncolumn.h
+	"ofMain.h"
+	"esignLed.h"
+
+1322765423 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignled.h
+	"ofMain.h"
+
+1322912102 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\mazelight.h
+	"esignFixture.h"
+	"movieScene.h"
+
+1322766765 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignfixture.h
+	"ofMain.h"
+	"esignUdp.h"
+	"esignPort.h"
+	"esignLed.h"
+	"setting.h"
+
+1322764083 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignudp.h
+	"ofMain.h"
+	"ofxNetwork.h"
+	"crc.h"
+	"setting.h"
+
+1322901799 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\setting.h
+	"ofMain.h"
+	"ofxXmlSettings.h"
+	"esignColumn.h"
+
+1322768875 c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignport.h
+	"ofMain.h"
+	"esignColumn.h"
+	"esignLed.h"
+	"ofxXmlSettings.h"
+	"esignUdp.h"
+
+1322548318 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\moviescene.cpp
+	"movieScene.h"
+
+1321532764 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\particle.cpp
+
+1322772825 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\controlgui.cpp
+	"controlGui.h"
+
+1322727373 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\effectscene.cpp
+	"effectScene.h"
+
+1322738693 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\effectsceneshout.cpp
+	"effectSceneShout.h"
+	"testApp.h"
+
+1322775327 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esigncolumn.cpp
+	"esignColumn.h"
+
+1322766752 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignfixture.cpp
+	"esignFixture.h"
+
+1322766359 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignled.cpp
+	"esignLed.h"
+
+1322770001 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignport.cpp
+	"esignPort.h"
+	"setting.h"
+
+1322764077 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\esignudp.cpp
+	"esignUdp.h"
+
+1322912051 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\mazelight.cpp
+	"mazeLight.h"
+
+1322736556 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\sceneevent.cpp
+	"sceneEvent.h"
+
+1322910965 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\scenemanager.cpp
+	"sceneManager.h"
+
+1322768754 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\setting.cpp
+	"setting.h"
+
+1322774563 source:c:\work\of_prerelease_v007_win_cb\apps\addonsexamples\miro_xxx\src\testapp.cpp
+	"testApp.h"
+
