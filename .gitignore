@@ -6,4 +6,5 @@ obj/
 *.exe
 miro/bin/data/movies
 miro/bin/miro
+miro/obj
 *.pyc
