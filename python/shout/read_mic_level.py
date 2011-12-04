@@ -13,10 +13,10 @@ def listener_on_message (bus, message, data):
     if (pmin==None or p<pmin): pmin = p
     if (pmax==None or p>pmax): pmax = p
     if (-30 < p):
-      print "level:", p
-      print "/sensor/mic 0 %d"% (int(p) + 30)
-      initOSCClient('192.168.1.10', 9000)
-      sendOSCMsg( '/sensor/mic', [0,int(p)+30] )
+	print "level:", p
+    	print "/effect/shout 0 %s"% (int(p) + 30)
+    	initOSCClient('192.168.0.108', 9000)
+    	sendOSCMsg( '/effect/shout', ['0',str(int(p)+30)] )
   return True
  
 listener_desc = 'alsasrc ! level ! fakesink'

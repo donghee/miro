@@ -1,3 +1,3 @@
 #!/bin/sh
 
-exec xterm -e python read_mic_level.py
+/usr/bin/python read_mic_level.py
