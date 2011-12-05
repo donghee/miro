@@ -11,7 +11,6 @@ def listener_on_message (bus, message, data):
     p = rms[0]
     if (pmin==None or p<pmin): pmin = p
     if (pmax==None or p>pmax): pmax = p
-#    print "/effect/shout 0 %s"% (int(p) + 30)
     if (-30 < p):
       print "level:", p
       print "/effect/shout 0 %s"% (int(p) + 30)
