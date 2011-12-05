@@ -36,10 +36,13 @@ void EsignFixture::updatePort(int id)
     }
 }
 
-void EsignFixture::draw()
+void EsignFixture::draw(bool show)
 {
     e->sendto();
 
+    if (show == false)
+        return;
+    
     for (int i=0; i< ports.size(); i++) {        
         ports[i].draw();
     }

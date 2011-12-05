@@ -4,6 +4,9 @@ from simpleOSC import *
 (pmin, pmax) = (None, None)
 before_p = 0
 
+ip = "192.168.1.7"
+ip = "127.0.0.1"
+
 def listener_on_message (bus, message, data):
   global pmin, pmax, before_p
   s = message.structure
@@ -14,18 +17,18 @@ def listener_on_message (bus, message, data):
     if (pmax==None or p>pmax): pmax = p
     if (-30 > before_p and p > -30):
       print "/effect/shout 0 1"
-      initOSCClient('127.0.0.1', 9000)
+      initOSCClient(ip, 9000)
       sendOSCMsg( '/effect/shout', ['0','1'] )
     if (-30 < p):
       print "level:", p
       # print "/effect/shout 0 %s"% (int(p) + 30)
-      initOSCClient('127.0.0.1', 9000)
+      initOSCClient(ip, 9000)
       #sendOSCMsg( '/effect/shout', ['0',str(int(p)+30)] )
       print "/effect/shout 0 0"
       sendOSCMsg( '/effect/shout', ['0','0'] )
     if (-30 < before_p and p < -30):
       print "/effect/shout 0 1"
-      initOSCClient('127.0.0.1', 9000)
+      initOSCClient(ip, 9000)
       sendOSCMsg( '/effect/shout', ['0','1'] )
     before_p = p
   return True

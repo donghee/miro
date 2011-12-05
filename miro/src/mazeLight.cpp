@@ -66,11 +66,9 @@ void MazeLight::drawEditMap()
 void MazeLight::draw()
 {
     drawEditMap();
-    if (led == false) {
-        return;
-    }
+
     for (int i =0; i< fixtures.size(); i++ ) {
-        fixtures[i].draw();
+        fixtures[i].draw(led);
     }
 }
 

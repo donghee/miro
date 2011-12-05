@@ -16,7 +16,7 @@ void EffectSceneShout::setup(){
 //---------------------------------------------------
 void EffectSceneShout::addEffect(int channel, float x, float y) {
     shouts.push_back(ofVec2f(x,y));
-    shout_timer.push_back(ofGetElapsedTimef()+5.0f);
+    shout_timer.push_back(ofGetElapsedTimef());
 }
 
 //---------------------------------------------------
@@ -30,7 +30,7 @@ void EffectSceneShout::setEffect(int channel, EffectType effect, EffectControlTy
         shouts[channel].y = 500;
         cout << "EFFECTON" << std::endl;
         for (int i=0; i<shouts.size(); i++) {
-            shout_timer[i] = ofGetElapsedTimef()+5.0f;
+            shout_timer[i] = ofGetElapsedTimef() +1.0f;
         }
     }
     if (effectControl == EFFECTOFF) {
@@ -94,10 +94,10 @@ void EffectSceneShout::draw(float alpha){
         if ( shout_timer[i] < ofGetElapsedTimef()) {            
             ofSetColor(255,255,255,0);
         } else {
-            ofSetColor(200,0,255);
-            ofCircle(x+ofRandom(10),y+ofRandom(10),80);
-            ofCircle(x+ofRandom(10),y+ofRandom(10),80);
-            ofCircle(x+ofRandom(10),y+ofRandom(10),80);
+            ofSetColor(0,0,0);
+            ofCircle(x+ofRandom(10),y+ofRandom(10),300);
+            // ofCircle(x+ofRandom(10),y+ofRandom(10),80);
+            // ofCircle(x+ofRandom(10),y+ofRandom(10),80);
         }
     }
     ofPopStyle();    
@@ -106,7 +106,6 @@ void EffectSceneShout::draw(float alpha){
     // effect_texture.draw(1024,768);
     // effect_image.draw(1024,768);
 
-    /*
     ofPushMatrix();
     ofTranslate(1024,0);
     ofSetRectMode(OF_RECTMODE_CORNER);
@@ -123,26 +122,6 @@ void EffectSceneShout::draw(float alpha){
         }
     }
     ofPopMatrix();
-    */
-
-    
-    // ofPushMatrix();
-    // ofTranslate(1024,768,0);
-
-    // ofPushStyle();
-    // // // ofSetColor(255);
-    // ofColor c;
-    // for (int x1=0; x1< 1024; x1=x1+1) {
-    //     for (int y1=0 ;y1<768; y1=y1+1) {
-    //         c=effect_image.getColor(1024+x1, y1);
-    //         ofSetColor(255,255,255);            
-    //         ofFill();
-    //         ofRect(x1,y1,80,80);
-    //     }
-    // }
-    
-    // ofPopStyle();
-    // ofPopMatrix();
 }
 
 //---------------------------------------------------

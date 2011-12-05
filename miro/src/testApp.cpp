@@ -21,6 +21,8 @@ void testApp::setup(){
     sceneEvent.setup();
     sceneEvent.setDebug(true);
     sceneEvent.bindScene(&scene, &sceneControl);
+
+    effectControl = EFFECTOFF;
     sceneEvent.bindEffect(&effect, &effectControl);
 }
 

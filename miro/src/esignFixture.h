@@ -13,7 +13,7 @@ class EsignFixture {
     public:
         void setup(int id);
 		void update();
-		void draw();
+		void draw(bool show);
         void addColumn(int portId, int x, int y, int ledSize, bool direction);
         void save();
 
