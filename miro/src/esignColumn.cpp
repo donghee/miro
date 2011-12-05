@@ -129,51 +129,10 @@ void EsignColumn::draw(int columnIndex, ofColor borderColor)
     // ofRect(columnRect);
     ofCircle(0,0,5);
 
-    // ofBeginShape();
-    // ofVertex(2,2);
-    // ofVertex(0,5);
-    // ofVertex(2,8);
-    // ofVertex(5,9);
-    // ofVertex(8,7);
-    // ofVertex(9,10);
-    // ofVertex(11,10);
-    // ofVertex(12,6);
-    // ofVertex(14,6);
-    // ofVertex(14,4);
-    // ofVertex(11,3);
-    // ofVertex(10,1);
-    // ofVertex(8,3);
-    // ofVertex(7,0);
-    // ofVertex(6,0);
-    // ofVertex(4,2);
-    // ofVertex(2,2);
-    // ofEndShape();
-
-
     // 테두리
     ofNoFill();
     ofSetColor(borderColor); //border color
     ofCircle(0,0,6);
-
-    // ofBeginShape();
-    // ofVertex(2,2);
-    // ofVertex(0,5);
-    // ofVertex(2,8);
-    // ofVertex(5,9);
-    // ofVertex(8,7);
-    // ofVertex(9,8);
-    // ofVertex(11,9);
-    // ofVertex(12,7);
-    // ofVertex(14,6);
-    // ofVertex(14,4);
-    // ofVertex(11,3);
-    // ofVertex(10,1);
-    // ofVertex(8,3);
-    // ofVertex(7,0);
-    // ofVertex(6,0);
-    // ofVertex(4,2);
-    // ofVertex(2,2);
-    // ofEndShape();
 
     // 컬럼 번호
     ofSetColor(255);

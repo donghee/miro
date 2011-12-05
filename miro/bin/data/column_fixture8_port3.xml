@@ -5,9 +5,9 @@
     <X>720</X>
     <Y>297</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>67</RED>
+    <RED>98</RED>
     <GREEN>0</GREEN>
-    <BLUE>154</BLUE>
+    <BLUE>148</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>1</ID>
@@ -15,10 +15,10 @@
     <SIZE>8</SIZE>
     <X>724</X>
     <Y>305</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>67</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>137</RED>
     <GREEN>0</GREEN>
-    <BLUE>154</BLUE>
+    <BLUE>134</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -27,9 +27,9 @@
     <X>723</X>
     <Y>315</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>74</RED>
+    <RED>137</RED>
     <GREEN>0</GREEN>
-    <BLUE>162</BLUE>
+    <BLUE>134</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -37,10 +37,10 @@
     <SIZE>8</SIZE>
     <X>720</X>
     <Y>325</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>185</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>138</RED>
     <GREEN>0</GREEN>
-    <BLUE>149</BLUE>
+    <BLUE>133</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>
@@ -49,9 +49,9 @@
     <X>712</X>
     <Y>332</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>204</RED>
+    <RED>138</RED>
     <GREEN>0</GREEN>
-    <BLUE>165</BLUE>
+    <BLUE>133</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>5</ID>
@@ -59,10 +59,10 @@
     <SIZE>8</SIZE>
     <X>702</X>
     <Y>337</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>210</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>138</RED>
     <GREEN>0</GREEN>
-    <BLUE>169</BLUE>
+    <BLUE>131</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>6</ID>
@@ -71,9 +71,9 @@
     <X>698</X>
     <Y>346</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>142</RED>
+    <RED>140</RED>
     <GREEN>0</GREEN>
-    <BLUE>115</BLUE>
+    <BLUE>135</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>7</ID>
@@ -81,10 +81,10 @@
     <SIZE>8</SIZE>
     <X>701</X>
     <Y>356</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>141</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>137</RED>
     <GREEN>0</GREEN>
-    <BLUE>115</BLUE>
+    <BLUE>137</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>8</ID>
@@ -93,7 +93,7 @@
     <X>700</X>
     <Y>367</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>141</RED>
+    <RED>142</RED>
     <GREEN>0</GREEN>
-    <BLUE>115</BLUE>
+    <BLUE>138</BLUE>
 </COLUMN>

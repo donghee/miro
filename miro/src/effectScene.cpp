@@ -17,6 +17,11 @@ void EffectScene::setEffect(int channel, EffectType effect, EffectControlType ef
 }
 
 //---------------------------------------------------
+ofColor EffectScene::getColor(int x, int y) {
+  
+}
+
+//---------------------------------------------------
 void EffectScene::update(){
     
 }

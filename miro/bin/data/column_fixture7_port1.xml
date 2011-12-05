@@ -6,7 +6,7 @@
     <Y>85</Y>
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
-    <GREEN>0</GREEN>
+    <GREEN>1</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -17,7 +17,7 @@
     <Y>82</Y>
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
-    <GREEN>0</GREEN>
+    <GREEN>1</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -27,9 +27,9 @@
     <X>840</X>
     <Y>76</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
+    <RED>2</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>4</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -38,9 +38,9 @@
     <X>835</X>
     <Y>69</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
+    <RED>3</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>3</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>

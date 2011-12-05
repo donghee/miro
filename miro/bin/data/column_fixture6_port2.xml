@@ -18,7 +18,7 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>2</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -29,7 +29,7 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>2</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -73,7 +73,7 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>2</BLUE>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>7</ID>

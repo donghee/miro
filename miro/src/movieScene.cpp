@@ -17,6 +17,7 @@ void MovieScene::setup(string movieFile)
         return;
     }
     movie.loadMovie(movieFile);
+    movie.setSpeed(0.5);     // TODO: half speed. add to slider.
     play(OF_LOOP_NORMAL);
 }
 

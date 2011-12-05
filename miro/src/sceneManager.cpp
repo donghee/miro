@@ -10,7 +10,7 @@ void SceneManager::setup()
     beforeSceneControl = SCENESTOP;
 
     // 영상 추가
-    addScene(INTRO, "movies/color.mov");
+    addScene(INTRO, "movies/Mir_V001_Main.mov");
     addScene(MOVIEA, "movies/red.mov");
     addScene(MOVIEB, "movies/green.mov");
     addScene(OUTRO, "movies/blue.mov");
@@ -95,6 +95,11 @@ MovieScene* SceneManager::getScene()
     if (scene == MOVIEA) return &moviea;
     if (scene == MOVIEB) return &movieb;
     if (scene == OUTRO) return &outro;
+}
+
+EffectScene* SceneManager::getEffect()
+{
+    return shout;
 }
 
 ofRectangle SceneManager::getMovieRect()

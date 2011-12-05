@@ -13,7 +13,10 @@ void MazeLight::setup()
     loadEditMap(mapPath);
     setupMovieRect(1024,768);
     map = false;
+    led = false;
 }
+
+                     
 
 void MazeLight::setupMovieRect(int w, int h)
 {
@@ -41,6 +44,12 @@ void MazeLight::showMap(bool on)
 {
     map = on;
 }
+
+void MazeLight::showLed(bool on)
+{
+    led = on;
+}
+
 void MazeLight::drawEditMap()
 {
     if (map == false) {
@@ -57,6 +66,9 @@ void MazeLight::drawEditMap()
 void MazeLight::draw()
 {
     drawEditMap();
+    if (led == false) {
+        return;
+    }
     for (int i =0; i< fixtures.size(); i++ ) {
         fixtures[i].draw();
     }
@@ -99,6 +111,24 @@ void MazeLight::setColor(int fixtureId, int portId, int columnId, uint8_t r, uin
 }
 
 void MazeLight::setColor(MovieScene& currentScene)
+{
+    int _x = 0;
+    int _y = 0;
+
+    for (int j=0; j <fixtures.size(); j++) { //8개
+       for (int pid=0; pid < PORT_COUNT; pid++) {
+           mazeLeds = getEsignFixtures()[j].getEsignPorts()[pid].getEsignLeds();
+           for (int i=0; i < CLUSTER_COUNT; i++ ) {
+               _x = mazeLeds[i].getX();
+               _y = mazeLeds[i].getY();
+               ofColor _c = currentScene.getColor(_x,_y);
+               mazeLeds[i].setColor(_c.r, _c.g, _c.b);
+           }
+       }
+   }
+}
+
+void MazeLight::setColor(EffectScene& currentScene)
 {
     int _x = 0;
     int _y = 0;

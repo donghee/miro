@@ -7,8 +7,8 @@ testApp *testApp::instance = NULL;
 void testApp::setup(){
     instance = this;
    	ofSetVerticalSync(true);
-	  ofSetFrameRate(30);
-	  ofBackground(0,0,0);
+    ofSetFrameRate(30);
+    ofBackground(0,0,0);
 
     // Gui binding
     controlGui.setup();
@@ -44,16 +44,21 @@ void testApp::update(){
     controlGui.update();
     sceneManager.update(scene, sceneControl, effect, effectControl);
     currentScene = sceneManager.getScene();
+    currentEffect = sceneManager.getEffect();    
     // update effect, effectcontrol
     mazeLight.update();
 }
 
 void testApp::draw(){
     sceneManager.draw();
-    mazeLight.setColor(*currentScene);
-    // mazeLight.setColor(*currentEffect);
+    // mazeLight.setColor(*currentScene);
+    mazeLight.setColor(*currentEffect);
     mazeLight.draw();
     sceneEvent.draw();
+
+    // FrameRate
+    string fpsStr = "Frame rate: "+ofToString(ofGetFrameRate(), 2);
+    ofDrawBitmapString(fpsStr, 10,10);
 }
 
 void testApp::keyPressed(int key){
@@ -83,6 +88,9 @@ void testApp::keyPressed(int key){
     if (key == '.') mazeLight.showMap(true);
     if (key == ',') mazeLight.showMap(false);
 
+    if (key == '.') mazeLight.showLed(true);
+    if (key == ',') mazeLight.showLed(false);
+    
     // 이벤트 발생할때 업데이트
     sceneManager.update(scene, sceneControl,effect,effectControl);
 }
@@ -98,11 +106,12 @@ void testApp::mouseDragged(int x, int y, int button){
  }
 
 void testApp::mousePressed(int x, int y, int button){
-    if (x < 1024 && y <768) {
-        mazeLight.addLight(fixtureNumber,portNumber ,x,y,columnLEDNumber, direction);
-        cout << "Fixture Number: ";
-        cout << fixtureNumber << " Port Number: " << portNumber<< " LED Number: " << columnLEDNumber << std::endl;
-    }
+    // 실수 잘해서 꺼놈. 메뉴로 활성화 가능하게 만들어야 겠다.
+    // if (x < 1024 && y <768) {
+    //     mazeLight.addLight(fixtureNumber,portNumber ,x,y,columnLEDNumber, direction);
+    //     cout << "Fixture Number: ";
+    //     cout << fixtureNumber << " Port Number: " << portNumber<< " LED Number: " << columnLEDNumber << std::endl;
+    // }
 }
 
 

@@ -40,7 +40,8 @@ class testApp : public ofBaseApp{
 
         SceneManager sceneManager;
         MovieScene* currentScene;
-
+        EffectScene* currentEffect;
+        
         // current Scene status
         SceneType scene;
         SceneControlType sceneControl;

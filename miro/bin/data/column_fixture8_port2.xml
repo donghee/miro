@@ -15,10 +15,10 @@
     <SIZE>10</SIZE>
     <X>768</X>
     <Y>208</Y>
-    <DIRECTION>0</DIRECTION>
+    <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>2</BLUE>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -27,9 +27,9 @@
     <X>768</X>
     <Y>217</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
-    <GREEN>2</GREEN>
-    <BLUE>0</BLUE>
+    <RED>48</RED>
+    <GREEN>25</GREEN>
+    <BLUE>72</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -37,10 +37,10 @@
     <SIZE>10</SIZE>
     <X>765</X>
     <Y>225</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>0</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>96</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>252</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>
@@ -49,9 +49,9 @@
     <X>758</X>
     <Y>232</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
+    <RED>48</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>156</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>5</ID>
@@ -59,10 +59,10 @@
     <SIZE>10</SIZE>
     <X>748</X>
     <Y>238</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>0</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>47</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>154</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>6</ID>
@@ -71,9 +71,9 @@
     <X>742</X>
     <Y>246</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>29</RED>
-    <GREEN>2</GREEN>
-    <BLUE>45</BLUE>
+    <RED>48</RED>
+    <GREEN>0</GREEN>
+    <BLUE>153</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>7</ID>
@@ -81,10 +81,10 @@
     <SIZE>10</SIZE>
     <X>747</X>
     <Y>256</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>69</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>47</RED>
     <GREEN>0</GREEN>
-    <BLUE>158</BLUE>
+    <BLUE>164</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>8</ID>
@@ -93,9 +93,9 @@
     <X>744</X>
     <Y>266</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>67</RED>
+    <RED>2</RED>
     <GREEN>0</GREEN>
-    <BLUE>154</BLUE>
+    <BLUE>5</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>9</ID>
@@ -103,10 +103,10 @@
     <SIZE>10</SIZE>
     <X>742</X>
     <Y>275</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>68</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>71</RED>
     <GREEN>0</GREEN>
-    <BLUE>152</BLUE>
+    <BLUE>155</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>10</ID>
@@ -115,9 +115,9 @@
     <X>734</X>
     <Y>282</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>67</RED>
+    <RED>71</RED>
     <GREEN>0</GREEN>
-    <BLUE>154</BLUE>
+    <BLUE>155</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>11</ID>
@@ -125,8 +125,8 @@
     <SIZE>10</SIZE>
     <X>724</X>
     <Y>286</Y>
-    <DIRECTION>0</DIRECTION>
-    <RED>67</RED>
+    <DIRECTION>1</DIRECTION>
+    <RED>71</RED>
     <GREEN>0</GREEN>
-    <BLUE>154</BLUE>
+    <BLUE>155</BLUE>
 </COLUMN>

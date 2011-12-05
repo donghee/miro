@@ -84,8 +84,6 @@ void SceneEvent::setEffect(EffectType _effect, EffectControlType _effectControl)
     }
 }
 
-
-
 void SceneEvent::update()
 {
     // Mic update

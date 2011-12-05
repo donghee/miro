@@ -2,6 +2,7 @@
 
 #include "esignFixture.h"
 #include "movieScene.h"
+#include "effectScene.h"
 
 class MazeLight
 {
@@ -14,7 +15,9 @@ class MazeLight
         void setColor(uint8_t r, uint8_t g, uint8_t b);
         void setColor(int fixtureId, int portId, int columnId, uint8_t r, uint8_t g, uint8_t b);
         void setColor(MovieScene& currentScene);
+        void setColor(EffectScene& currentScene);
         void showMap(bool on);
+        void showLed(bool on);
 
         void addLight(int fixtureId, int portId, int x, int y, int size, bool direction);
         void save();
@@ -35,6 +38,6 @@ class MazeLight
 
         string mapPath;
         bool map;
-
+        bool led;            
 };
 

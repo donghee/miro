@@ -40,7 +40,7 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>2</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>
@@ -51,7 +51,7 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>2</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>5</ID>
@@ -62,5 +62,5 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>2</BLUE>
 </COLUMN>

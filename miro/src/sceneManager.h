@@ -23,6 +23,7 @@ class SceneManager
         ofRectangle getEffectRect();
 
         MovieScene* getScene();
+        EffectScene* getEffect();            
 
         void update(SceneType scene, SceneControlType sceneControl, EffectType effect, EffectControlType effectControl);
         void draw();

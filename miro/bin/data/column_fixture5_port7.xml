@@ -27,9 +27,9 @@
     <X>370</X>
     <Y>67</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
-    <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <RED>11</RED>
+    <GREEN>170</GREEN>
+    <BLUE>16</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -38,7 +38,7 @@
     <X>365</X>
     <Y>76</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
+    <RED>2</RED>
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
