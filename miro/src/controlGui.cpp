@@ -29,7 +29,7 @@ void ControlGui::setup() {
     hLabel * fixtureLabel = gui->addLabel("", mainPanel, HGUI_TOP_LEFT, gui->margin2, 5, "Fixture");
     fixtureButtonBox = gui->addButtonBox("fixtureButtonBox", mainPanel, HGUI_NEXT_ROW, gui->margin2, gui->margin2, 32, 20);
     fixtureButtonBox->displayIndexes(true);
-    fixtureButtonBox->addItems(7, 1);
+    fixtureButtonBox->addItems(9, 1);
   	fixtureButtonBox->selectItem(1); // preselect an item (first item is 1)
   	events->addListener("setFixtureFromGui", this, &ControlGui::setFixtureFromGui);
   	fixtureButtonBox->setMessage("ControlGui.setFixtureFromGui");

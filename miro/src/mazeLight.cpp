@@ -1,8 +1,9 @@
 #include "mazeLight.h"
 
-void MazeLight::setup()
+void MazeLight::setup() 
 {
-    for (int i=0;i<8; i++) { // TODO: change 8 to 10.
+    int numberOfFixture = 9;
+    for (int i=0;i < numberOfFixture; i++) {
         EsignFixture fixture;
         fixture.setup(i);
         fixtures.push_back(fixture);
@@ -102,7 +103,7 @@ void MazeLight::setColor(MovieScene& currentScene)
     int _x = 0;
     int _y = 0;
 
-    for (int j=0; j <8; j++) { //8개
+    for (int j=0; j <fixtures.size(); j++) { //8개
        for (int pid=0; pid < PORT_COUNT; pid++) {
            mazeLeds = getEsignFixtures()[j].getEsignPorts()[pid].getEsignLeds();
            for (int i=0; i < CLUSTER_COUNT; i++ ) {

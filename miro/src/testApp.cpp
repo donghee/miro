@@ -68,8 +68,8 @@ void testApp::keyPressed(int key){
     if (key == '7') portNumber = 6;
     if (key == '8') portNumber = 7;
 
-    if (key == 'q') direction = UP;
-    if (key == 'w') direction = DOWN;
+    if (key == 'a') direction = UP;
+    if (key == 'z') direction = DOWN;
 
     if (key == 'o') scene = INTRO;
     if (key == 'p') scene = MOVIEA;

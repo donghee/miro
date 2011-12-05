@@ -5,9 +5,9 @@
     <X>185</X>
     <Y>378</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>19</RED>
-    <GREEN>250</GREEN>
-    <BLUE>217</BLUE>
+    <RED>55</RED>
+    <GREEN>255</GREEN>
+    <BLUE>4</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>1</ID>
@@ -16,9 +16,9 @@
     <X>196</X>
     <Y>380</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>26</RED>
+    <RED>53</RED>
     <GREEN>255</GREEN>
-    <BLUE>228</BLUE>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -27,9 +27,9 @@
     <X>205</X>
     <Y>384</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>24</RED>
+    <RED>40</RED>
     <GREEN>255</GREEN>
-    <BLUE>243</BLUE>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -38,9 +38,9 @@
     <X>211</X>
     <Y>392</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>24</RED>
-    <GREEN>255</GREEN>
-    <BLUE>252</BLUE>
+    <RED>38</RED>
+    <GREEN>248</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>
@@ -49,9 +49,9 @@
     <X>214</X>
     <Y>402</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>52</RED>
-    <GREEN>255</GREEN>
-    <BLUE>255</BLUE>
+    <RED>35</RED>
+    <GREEN>234</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>5</ID>
@@ -60,9 +60,9 @@
     <X>212</X>
     <Y>413</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>93</RED>
-    <GREEN>255</GREEN>
-    <BLUE>255</BLUE>
+    <RED>30</RED>
+    <GREEN>213</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>6</ID>
@@ -71,9 +71,9 @@
     <X>209</X>
     <Y>422</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>102</RED>
-    <GREEN>255</GREEN>
-    <BLUE>255</BLUE>
+    <RED>32</RED>
+    <GREEN>195</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>7</ID>
@@ -82,9 +82,9 @@
     <X>202</X>
     <Y>429</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>87</RED>
-    <GREEN>255</GREEN>
-    <BLUE>255</BLUE>
+    <RED>25</RED>
+    <GREEN>181</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>8</ID>
@@ -93,7 +93,7 @@
     <X>192</X>
     <Y>433</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>52</RED>
+    <RED>84</RED>
     <GREEN>255</GREEN>
-    <BLUE>255</BLUE>
+    <BLUE>122</BLUE>
 </COLUMN>

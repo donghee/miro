@@ -161,7 +161,7 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>1</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>15</ID>
@@ -170,9 +170,9 @@
     <X>425</X>
     <Y>630</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
-    <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <RED>25</RED>
+    <GREEN>221</GREEN>
+    <BLUE>9</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>16</ID>
@@ -194,5 +194,5 @@
     <DIRECTION>1</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>0</BLUE>
+    <BLUE>4</BLUE>
 </COLUMN>

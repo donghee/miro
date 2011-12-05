@@ -1,0 +1,99 @@
+<COLUMN>
+    <ID>0</ID>
+    <TOPCHANNEL>9</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>528</X>
+    <Y>289</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>1</ID>
+    <TOPCHANNEL>10</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>525</X>
+    <Y>279</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>2</ID>
+    <TOPCHANNEL>29</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>527</X>
+    <Y>268</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>24</RED>
+    <GREEN>158</GREEN>
+    <BLUE>22</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>3</ID>
+    <TOPCHANNEL>30</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>532</X>
+    <Y>259</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>17</RED>
+    <GREEN>225</GREEN>
+    <BLUE>11</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>4</ID>
+    <TOPCHANNEL>49</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>538</X>
+    <Y>253</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>26</RED>
+    <GREEN>255</GREEN>
+    <BLUE>22</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>5</ID>
+    <TOPCHANNEL>50</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>548</X>
+    <Y>248</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>29</RED>
+    <GREEN>255</GREEN>
+    <BLUE>26</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>6</ID>
+    <TOPCHANNEL>69</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>556</X>
+    <Y>247</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>43</RED>
+    <GREEN>100</GREEN>
+    <BLUE>45</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>7</ID>
+    <TOPCHANNEL>70</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>565</X>
+    <Y>248</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>1</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>8</ID>
+    <TOPCHANNEL>89</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>574</X>
+    <Y>253</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>

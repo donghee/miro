@@ -1,0 +1,132 @@
+<COLUMN>
+    <ID>0</ID>
+    <TOPCHANNEL>7</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>848</X>
+    <Y>424</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>1</ID>
+    <TOPCHANNEL>8</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>859</X>
+    <Y>427</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>2</ID>
+    <TOPCHANNEL>23</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>870</X>
+    <Y>427</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>3</ID>
+    <TOPCHANNEL>24</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>879</X>
+    <Y>423</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>4</ID>
+    <TOPCHANNEL>39</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>887</X>
+    <Y>416</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>5</ID>
+    <TOPCHANNEL>40</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>891</X>
+    <Y>408</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>2</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>6</ID>
+    <TOPCHANNEL>55</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>897</X>
+    <Y>400</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>7</ID>
+    <TOPCHANNEL>56</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>908</X>
+    <Y>399</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>8</ID>
+    <TOPCHANNEL>71</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>916</X>
+    <Y>393</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>9</ID>
+    <TOPCHANNEL>72</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>920</X>
+    <Y>385</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>10</ID>
+    <TOPCHANNEL>87</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>925</X>
+    <Y>376</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>11</ID>
+    <TOPCHANNEL>88</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>925</X>
+    <Y>364</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
