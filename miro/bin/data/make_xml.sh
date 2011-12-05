@@ -6,3 +6,4 @@ for i in `seq 0 7`; do touch column_fixture4_port$i.xml; done
 for i in `seq 0 7`; do touch column_fixture5_port$i.xml; done
 for i in `seq 0 7`; do touch column_fixture6_port$i.xml; done
 for i in `seq 0 7`; do touch column_fixture7_port$i.xml; done
+for i in `seq 0 7`; do touch column_fixture8_port$i.xml; done

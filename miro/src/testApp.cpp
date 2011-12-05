@@ -6,8 +6,9 @@ testApp *testApp::instance = NULL;
 
 void testApp::setup(){
     instance = this;
-	ofSetVerticalSync(true);
-	ofSetFrameRate(30);
+   	ofSetVerticalSync(true);
+	  ofSetFrameRate(30);
+	  ofBackground(0,0,0);
 
     // Gui binding
     controlGui.setup();
