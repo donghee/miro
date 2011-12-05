@@ -10,7 +10,8 @@ class EffectSceneShout:public EffectScene{
 public:
     void setup();
     void addEffect(int channel, float x, float y);
-    void setEffect(int channel, EffectType effect, EffectControlType effectControl);
+    void setEffect(int channel, int level, EffectControlType effectControl);
+    void setShoutEffect(int channel, int level, EffectControlType effectControl);
 
     unsigned char* getPixels();
     ofColor getColor(int x, int y);

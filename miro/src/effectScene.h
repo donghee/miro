@@ -8,6 +8,7 @@ class EffectScene {
     virtual void update();
     virtual void addEffect(int channel, float x, float y);
     virtual void setEffect(int channel, EffectType effect, EffectControlType effectControl);
+
     virtual ofColor getColor(int x, int y);
     virtual void draw(float alpha);
     virtual void keyPressed(int key);

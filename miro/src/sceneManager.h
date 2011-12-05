@@ -16,7 +16,8 @@ class SceneManager
 
         void setScene(SceneType scene, SceneControlType sceneControl);
         void setEffect(EffectType effect, EffectControlType effectControl);
-
+        void setShoutEffect(int mic_id, int mic_level, EffectControlType _effectControl);
+            
         void addScene(SceneType _scene, string movieFile);
 
         ofRectangle getMovieRect();

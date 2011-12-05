@@ -4,7 +4,7 @@ from simpleOSC import *
 (pmin, pmax) = (None, None)
 before_p = 0
 
-ip = "192.168.1.7"
+#ip = "192.168.1.7"
 ip = "127.0.0.1"
 
 def listener_on_message (bus, message, data):
@@ -15,21 +15,19 @@ def listener_on_message (bus, message, data):
     p = rms[0]
     if (pmin==None or p<pmin): pmin = p
     if (pmax==None or p>pmax): pmax = p
-    if (-30 > before_p and p > -30):
-      print "/effect/shout 0 1"
+    if (-10 > before_p and p > -10): # reset
+      print "/effect/shout 1 0 1"
       initOSCClient(ip, 9000)
-      sendOSCMsg( '/effect/shout', ['0','1'] )
-    if (-30 < p):
+      sendOSCMsg( '/effect/shout', ['1','0','1'] )
+    if (-10 < p): #effecton
       print "level:", p
-      # print "/effect/shout 0 %s"% (int(p) + 30)
       initOSCClient(ip, 9000)
-      #sendOSCMsg( '/effect/shout', ['0',str(int(p)+30)] )
-      print "/effect/shout 0 0"
-      sendOSCMsg( '/effect/shout', ['0','0'] )
-    if (-30 < before_p and p < -30):
-      print "/effect/shout 0 1"
+      print "/effect/shout 1 %s 0" % str(int(p)+30)
+      sendOSCMsg( '/effect/shout', ['1',str(int(p)+30),'0'] )
+    if (-10 < before_p and p < -10): #effectoff
+      print "/effect/shout 1 0 1"
       initOSCClient(ip, 9000)
-      sendOSCMsg( '/effect/shout', ['0','1'] )
+      sendOSCMsg( '/effect/shout', ['1','0','1'] )
     before_p = p
   return True
 

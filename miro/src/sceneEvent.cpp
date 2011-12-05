@@ -1,5 +1,7 @@
 #include "sceneEvent.h"
 
+SceneEvent *SceneEvent::instance = NULL;
+
 SceneEvent::SceneEvent()
 {
 }
@@ -16,6 +18,11 @@ void SceneEvent::setup()
 	receiver.setup(9000);
 
     debug = false;
+
+    for (int i =0 ; i < NUMBER_OF_SHOUT; i++) {
+        mic_levels.push_back(0);
+        shout_effect_controls.push_back(EFFECTOFF);        
+    }
 }
 
 void SceneEvent::setDebug(bool on)
@@ -35,7 +42,7 @@ void SceneEvent::bindEffect(EffectType* effect_ref, EffectControlType* effectCon
     effectControl = effectControl_ref;
 }
 
-void SceneEvent::setMic(int& mic_id_ref, int& mic_level_ref)
+void SceneEvent::bindMic(int& mic_id_ref, int& mic_level_ref)
 {
     mic_id = mic_id_ref;
     mic_level = mic_level_ref;
@@ -44,7 +51,17 @@ void SceneEvent::setMic(int& mic_id_ref, int& mic_level_ref)
 int SceneEvent::getMicLevel(int mic_id)
 {
     // vector로 주 수정.
-    return mic_level;
+    if (mic_id > mic_levels.size()) {
+            throw domain_error("mic id over mic index");
+     }
+    return mic_levels[mic_id];
+}
+EffectControlType SceneEvent::getShoutEffectControl(int channel)
+{
+    if (channel > shout_effect_controls.size()) {
+            throw domain_error("channel is over shouts");
+     }
+    return shout_effect_controls[channel];
 }
 
 list<TuioCursor*> SceneEvent::getTuioCursorList()
@@ -68,21 +85,33 @@ void SceneEvent::setScene(SceneType _scene, SceneControlType _sceneControl)
     }
 }
 
-void SceneEvent::setEffect(EffectType _effect, EffectControlType _effectControl)
+void SceneEvent::setShoutEffect(int micId, int micLevel, EffectControlType _effectControl)
 {
     // Out of bound of Scene
-    if (_effect >= EffectType_End || _effectControl >= EffectControlType_End) return;
+    if (micId <0 || _effectControl >= EffectControlType_End) return;
 
-    *effect = _effect;
-    *effectControl = _effectControl;
+        if (micId > mic_levels.size()) {
+            throw domain_error("mic id over mic index");
+        }
+        mic_levels[micId] = micLevel;
 
+        // vector로 주 수정.
+        if (micId > shout_effect_controls.size()) {
+            throw domain_error("mic id over mic index");
+        }
+        
+        shout_effect_controls[micId] = _effectControl;
+        
     if (debug) {
-        cout << "Effect: ";
-        cout << (* effect) << std::endl;
+        cout << "Mic Id: ";
+        cout << micId << std::endl;
+        cout << "Mic Level: ";
+        cout << micLevel << std::endl;        
         cout << "Effect control: ";
-        cout << (* effectControl) << std::endl;
+        cout << _effectControl << std::endl;
     }
 }
+
 
 void SceneEvent::update()
 {
@@ -95,12 +124,10 @@ void SceneEvent::update()
 		// check for mouse moved message
 		if ( m.getAddress() == "/effect/shout" )
 		{
-			// both the arguments are int32's
-			// mic_id = ofToInt(m.getArgAsString(0));
-			// mic_level = ofToInt(m.getArgAsString(1));
-            setEffect((EffectType)ofToInt(m.getArgAsString(0)),
-                     (EffectControlType)ofToInt(m.getArgAsString(1)));
-            
+            setShoutEffect(
+                           ofToInt(m.getArgAsString(0)),
+                           ofToInt(m.getArgAsString(1)),
+                           (EffectControlType)ofToInt(m.getArgAsString(2)));
 		}
 
 		if ( m.getAddress() == "/scene")
@@ -109,11 +136,11 @@ void SceneEvent::update()
                      (SceneControlType)ofToInt(m.getArgAsString(1)));
 		}
 
-		if ( m.getAddress() == "/effect")
-		{
-		    setEffect((EffectType)ofToInt(m.getArgAsString(0)),
-                      (EffectControlType)ofToInt(m.getArgAsString(1)));
-		}
+		// if ( m.getAddress() == "/effect")
+		// {
+		//     setEffect((EffectType)ofToInt(m.getArgAsString(0)),
+        //               (EffectControlType)ofToInt(m.getArgAsString(1)));
+		// }
 	}
 }
 

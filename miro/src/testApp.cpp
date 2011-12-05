@@ -24,6 +24,8 @@ void testApp::setup(){
 
     effectControl = EFFECTOFF;
     sceneEvent.bindEffect(&effect, &effectControl);
+    // sceneEvent.bindMic(mic_id, mic_level);
+    
 }
 
 void testApp::controlGui_bind()
@@ -41,9 +43,18 @@ void testApp::controlGui_bind()
     direction = true; // true is up.
 }
 
+void testApp::sceneManager_updateShout()
+{
+        for (int i=0 ; i <NUMBER_OF_SHOUT; i++) {
+        sceneManager.setShoutEffect(i,sceneEvent.getMicLevel(i), sceneEvent.getShoutEffectControl(i));
+    }
+}
+
 void testApp::update(){
     sceneEvent.update();
     controlGui.update();
+
+    sceneManager_updateShout();
     sceneManager.update(scene, sceneControl, effect, effectControl);
     currentScene = sceneManager.getScene();
     currentEffect = sceneManager.getEffect();    

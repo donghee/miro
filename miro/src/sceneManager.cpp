@@ -21,11 +21,11 @@ void SceneManager::setup()
     // 이팩트 추가
     shout = new EffectSceneShout();
     shout->setup();
-    shout->addEffect(0,0.3,0.4);
-    shout->addEffect(1,0.4,0.3);
-    shout->addEffect(2,0.7,0.5);
-    shout->addEffect(3,0.3,0.8);
-    shout->addEffect(4,0.4,0.2);
+    shout->addEffect(0,0.41,0.75); //shout 1
+    shout->addEffect(1,0.632,0.538); //shout 2   
+    shout->addEffect(2,0.242,0.64); //shout 3
+    shout->addEffect(3,0.408,0.31); // shout 4
+    shout->addEffect(4,0.768,0.144);
 
     //set effectRect = 1024,0,1024+1024, 768
 }
@@ -47,6 +47,11 @@ void SceneManager::setScene(SceneType _scene, SceneControlType _sceneControl)
 void SceneManager::setEffect(EffectType _effect, EffectControlType _effectControl)
 {
     shout->setEffect(0,SOUNDINPUT, _effectControl);
+}
+
+void SceneManager::setShoutEffect(int mic_id, int mic_level, EffectControlType _effectControl)
+{
+    ((EffectSceneShout*)shout)->setShoutEffect(mic_id,2, _effectControl);
 }
 
 bool SceneManager::sceneIsChanged(SceneType _scene, SceneControlType _sceneControl)
@@ -77,7 +82,7 @@ void SceneManager::update(SceneType _scene, SceneControlType _sceneControl,
     (*currentMovieScene).update();
 
     //effect
-    setEffect(_effect, _effectControl);
+    // setEffect(_effect, _effectControl);
     shout->update();
 }
 

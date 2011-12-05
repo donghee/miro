@@ -1,10 +1,18 @@
 #include "esignLed.h"
 
+void EsignLed::setColor(uint8_t r, uint8_t g, uint8_t b, float  easing)
+{
+    r = MAX(r-90,0);
+    g = MAX(r-110,0);
+    b = MAX(r-190,0);
+    color.r += (r-color.r)*easing;
+    color.g += (g-color.g)*easing;
+    color.b += (b-color.b)*easing;      
+}
+
 void EsignLed::setColor(uint8_t r, uint8_t g, uint8_t b)
 {
-    color.r = r;
-    color.g = g;
-    color.b = b;
+    setColor(r,g,b,1);
 }
 
 ofColor EsignLed::getColor()

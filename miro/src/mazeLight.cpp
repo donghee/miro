@@ -138,7 +138,7 @@ void MazeLight::setColor(EffectScene& currentScene)
                _x = mazeLeds[i].getX();
                _y = mazeLeds[i].getY();
                ofColor _c = currentScene.getColor(_x,_y);
-               mazeLeds[i].setColor(_c.r, _c.g, _c.b);
+               mazeLeds[i].setColor(_c.r, _c.g, _c.b,0.3);
            }
        }
    }

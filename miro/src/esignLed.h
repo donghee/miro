@@ -5,7 +5,8 @@
 class EsignLed
 {
     public:
-        void setColor(uint8_t r, uint8_t g, uint8_t b);
+        void setColor(uint8_t r, uint8_t g, uint8_t b, float easing);
+        void setColor(uint8_t r, uint8_t g, uint8_t b);    
         ofColor getColor();
 
         void setPosition(int x, int y, int z);

@@ -41,6 +41,7 @@ class testApp : public ofBaseApp{
         SceneManager sceneManager;
         MovieScene* currentScene;
         EffectScene* currentEffect;
+
         
         // current Scene status
         SceneType scene;
@@ -50,9 +51,14 @@ class testApp : public ofBaseApp{
         EffectType effect;
         EffectControlType effectControl;
 
+        int mic_id;
+        int mic_level;                
+        
         // VIDEO
         void controlGui_bind();
 
+        void sceneManager_updateShout();
+            
         static testApp* instance;            
 };
 

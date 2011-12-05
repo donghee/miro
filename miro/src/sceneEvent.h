@@ -5,6 +5,8 @@
 #include "ofxOsc.h"
 #include "sceneManager.h"
 
+#define NUMBER_OF_SHOUT 5
+
 class SceneEvent
 {
     public:
@@ -17,16 +19,18 @@ class SceneEvent
 
         void bindScene(SceneType* scene_ref, SceneControlType* sceneControl_ref);
         void bindEffect(EffectType* effect_ref, EffectControlType* effectControl_ref);
+        void bindMic(int& mic_id_ref, int& mic_level_ref); // TODO change mic ref to mic list.
 
 		void drawTuioInfo();
 		void drawMicInfo();
 
-        void setMic(int& mic_id_ref, int& mic_level_ref); // TODO change mic ref to mic list.
         int getMicLevel(int mic_id);
+         EffectControlType getShoutEffectControl(int channel);
 
         list<TuioCursor*> getTuioCursorList();
 
         void setDebug(bool on);
+        
     protected:
     private:
         ofxTuioClient myTuio;
@@ -36,6 +40,9 @@ class SceneEvent
         int mic_id;
         int mic_level;
 
+        vector <int> mic_levels;
+        vector <EffectControlType> shout_effect_controls;
+        
         SceneType* scene;
         SceneControlType* sceneControl;
         EffectType* effect;
@@ -44,5 +51,9 @@ class SceneEvent
         bool debug;
 
         void setScene(SceneType _scene, SceneControlType _sceneControl);
-        void setEffect(EffectType _effect, EffectControlType _effectControl);
+         /* void setEffect(EffectType _effect, EffectControlType _effectControl); */
+         void setShoutEffect(int micId, int micLevel, EffectControlType
+                             _effectControl);
+
+         static SceneEvent* instance;                     
 };

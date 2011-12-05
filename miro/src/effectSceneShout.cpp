@@ -20,25 +20,18 @@ void EffectSceneShout::addEffect(int channel, float x, float y) {
 }
 
 //---------------------------------------------------
-void EffectSceneShout::setEffect(int channel, EffectType effect, EffectControlType effectControl) {
+void EffectSceneShout::setShoutEffect(int channel, int level, EffectControlType effectControl) {
     
     if (channel > shout_timer.size())
         throw domain_error("out of bound in shout timer");
 
     if (effectControl == EFFECTON) {
-        shouts[channel].x = 500;
-        shouts[channel].y = 500;
         cout << "EFFECTON" << std::endl;
-        for (int i=0; i<shouts.size(); i++) {
-            shout_timer[i] = ofGetElapsedTimef() +1.0f;
-        }
+        shout_timer[channel] = ofGetElapsedTimef() +1.0f;
     }
     if (effectControl == EFFECTOFF) {
-        shout_timer[channel] = 0;
     }
     if (effectControl == EFFECTONCE)  {
-        shouts[channel].x = 500;
-        shouts[channel].y = 500;
     }
 }
 
@@ -90,15 +83,18 @@ void EffectSceneShout::draw(float alpha){
     for (int i=0; i<shouts.size(); i++) {
         int x = shouts[i].x * EFFECTSCENE_WIDTH;
         int y = shouts[i].y * EFFECTSCENE_HEIGHT;
-        // if ((int(ofGetFrameRate()) % 4) == 0) {
         if ( shout_timer[i] < ofGetElapsedTimef()) {            
             ofSetColor(255,255,255,0);
         } else {
-            ofSetColor(0,0,0);
-            ofCircle(x+ofRandom(10),y+ofRandom(10),300);
-            // ofCircle(x+ofRandom(10),y+ofRandom(10),80);
-            // ofCircle(x+ofRandom(10),y+ofRandom(10),80);
+             if ((int(ofGetFrameRate()) % 2) == 0) {            
+                 ofSetColor(0,0,0);
+             } else {
+                 ofSetColor(0,100,100);
+             }
+             ofCircle(x,y,45);
         }
+        ofSetColor(0,0,0);             
+        ofCircle(x,y,20);             
     }
     ofPopStyle();    
     ofPopMatrix();
@@ -108,7 +104,7 @@ void EffectSceneShout::draw(float alpha){
 
     ofPushMatrix();
     ofTranslate(1024,0);
-    ofSetRectMode(OF_RECTMODE_CORNER);
+    ofSetRectMode(OF_RECTMODE_CORNER);  
     
     ofColor c;
     for (int x1=0; x1< 1024; x1=x1+10) {
