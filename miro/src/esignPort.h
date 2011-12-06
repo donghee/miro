@@ -22,6 +22,7 @@ class EsignPort
 
         int getBindedLedSize();
         EsignLed* getEsignLeds();
+        vector <EsignColumn> getEsignColumns();
     protected:
 
     private:

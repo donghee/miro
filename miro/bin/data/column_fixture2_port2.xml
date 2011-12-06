@@ -5,9 +5,9 @@
     <X>467</X>
     <Y>510</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>16</RED>
-    <GREEN>240</GREEN>
-    <BLUE>11</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>1</ID>
@@ -15,10 +15,10 @@
     <SIZE>10</SIZE>
     <X>471</X>
     <Y>519</Y>
-    <DIRECTION>1</DIRECTION>
-    <RED>15</RED>
-    <GREEN>189</GREEN>
-    <BLUE>17</BLUE>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -27,9 +27,9 @@
     <X>468</X>
     <Y>529</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>38</RED>
-    <GREEN>116</GREEN>
-    <BLUE>41</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -37,10 +37,10 @@
     <SIZE>10</SIZE>
     <X>475</X>
     <Y>538</Y>
-    <DIRECTION>1</DIRECTION>
+    <DIRECTION>0</DIRECTION>
     <RED>0</RED>
-    <GREEN>1</GREEN>
-    <BLUE>2</BLUE>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>
@@ -59,7 +59,7 @@
     <SIZE>10</SIZE>
     <X>492</X>
     <Y>547</Y>
-    <DIRECTION>1</DIRECTION>
+    <DIRECTION>0</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
@@ -71,7 +71,7 @@
     <X>466</X>
     <Y>539</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>3</RED>
+    <RED>0</RED>
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
@@ -81,10 +81,10 @@
     <SIZE>10</SIZE>
     <X>459</X>
     <Y>549</Y>
-    <DIRECTION>1</DIRECTION>
-    <RED>2</RED>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>2</BLUE>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>8</ID>
@@ -93,9 +93,9 @@
     <X>449</X>
     <Y>551</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>3</RED>
+    <RED>0</RED>
     <GREEN>0</GREEN>
-    <BLUE>6</BLUE>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>9</ID>
@@ -103,7 +103,7 @@
     <SIZE>10</SIZE>
     <X>444</X>
     <Y>562</Y>
-    <DIRECTION>1</DIRECTION>
+    <DIRECTION>0</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
@@ -125,7 +125,7 @@
     <SIZE>10</SIZE>
     <X>447</X>
     <Y>580</Y>
-    <DIRECTION>1</DIRECTION>
+    <DIRECTION>0</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
@@ -147,7 +147,7 @@
     <SIZE>10</SIZE>
     <X>462</X>
     <Y>595</Y>
-    <DIRECTION>1</DIRECTION>
+    <DIRECTION>0</DIRECTION>
     <RED>0</RED>
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>

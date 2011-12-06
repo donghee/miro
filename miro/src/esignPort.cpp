@@ -113,6 +113,11 @@ EsignLed* EsignPort::getEsignLeds()
     return  EsignLeds;
 }
 
+vector <EsignColumn> EsignPort::getEsignColumns()
+{
+    return  EsignColumns;
+}
+
 void EsignPort::setColor(uint8_t r, uint8_t g, uint8_t b)
 {
     for (int i=0; i < EsignColumns.size(); i++) {

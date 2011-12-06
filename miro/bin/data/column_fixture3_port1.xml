@@ -5,9 +5,9 @@
     <X>185</X>
     <Y>378</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>73</RED>
-    <GREEN>255</GREEN>
-    <BLUE>71</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>1</ID>
@@ -15,10 +15,10 @@
     <SIZE>10</SIZE>
     <X>196</X>
     <Y>380</Y>
-    <DIRECTION>1</DIRECTION>
-    <RED>101</RED>
-    <GREEN>255</GREEN>
-    <BLUE>110</BLUE>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -27,9 +27,9 @@
     <X>205</X>
     <Y>384</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>79</RED>
-    <GREEN>255</GREEN>
-    <BLUE>78</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>3</ID>
@@ -37,9 +37,9 @@
     <SIZE>10</SIZE>
     <X>211</X>
     <Y>392</Y>
-    <DIRECTION>1</DIRECTION>
-    <RED>148</RED>
-    <GREEN>255</GREEN>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -49,8 +49,8 @@
     <X>214</X>
     <Y>402</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>144</RED>
-    <GREEN>255</GREEN>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -59,9 +59,9 @@
     <SIZE>10</SIZE>
     <X>212</X>
     <Y>413</Y>
-    <DIRECTION>1</DIRECTION>
-    <RED>132</RED>
-    <GREEN>236</GREEN>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -71,9 +71,9 @@
     <X>209</X>
     <Y>422</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>113</RED>
-    <GREEN>214</GREEN>
-    <BLUE>2</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>7</ID>
@@ -81,10 +81,10 @@
     <SIZE>10</SIZE>
     <X>202</X>
     <Y>429</Y>
-    <DIRECTION>1</DIRECTION>
-    <RED>16</RED>
-    <GREEN>235</GREEN>
-    <BLUE>4</BLUE>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>8</ID>
@@ -93,7 +93,7 @@
     <X>192</X>
     <Y>433</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>14</RED>
-    <GREEN>226</GREEN>
-    <BLUE>4</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>

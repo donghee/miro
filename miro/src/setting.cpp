@@ -38,7 +38,7 @@ vector <EsignColumn> Setting::loadColumns(int fixtureId, int portId)
         bool direction = XML.getValue("COLUMN:DIRECTION",true,i);
         int topChannel = XML.getValue("COLUMN:TOPCHANNEL",0,i);
         EsignColumn column;
-        column.setup(x,y,size,1);
+        column.setup(x,y,size,direction);
         column.setPosition(x,y);
         column.setColor(red,green,blue);
         column.setTopChannel(topChannel);

@@ -126,19 +126,60 @@ void MazeLight::setColor(MovieScene& currentScene)
    }
 }
 
+// void MazeLight::setColor(EffectScene& currentScene)
+// {
+//     int _x = 0;
+//     int _y = 0;
+
+//     for (int j=0; j <fixtures.size(); j++) { //8개
+//        for (int pid=0; pid < PORT_COUNT; pid++) {
+//            mazeLeds = getEsignFixtures()[j].getEsignPorts()[pid].getEsignLeds();
+//            for (int i=0; i < CLUSTER_COUNT; i++ ) {
+//                _x = mazeLeds[i].getX();
+//                _y = mazeLeds[i].getY();
+//                ofColor _c = currentScene.getColor(_x,_y);
+//                mazeLeds[i].setColor(_c.r, _c.g, _c.b,0.3);
+//            }
+//        }
+//    }
+// }
+
+// // column 접근 OK
+// void MazeLight::setColor(EffectScene& currentScene)
+// {
+//     int _x = 0;
+//     int _y = 0;
+//     vector <EsignColumn> columns;
+//     for (int j=0; j <fixtures.size(); j++) { //8개
+//        for (int pid=0; pid < PORT_COUNT; pid++) {
+//            columns = getEsignFixtures()[j].getEsignPorts()[pid].getEsignColumns();
+//            for (int i=0; i < columns.size(); i++ ) {
+//                _x = columns[i].getX();
+//                _y = columns[i].getY();
+//                ofColor _c = currentScene.getColor(_x,_y);
+//                columns[i].setColor(_c.r, _c.g, _c.b);
+//            }
+//        }
+//    }
+// }
+
 void MazeLight::setColor(EffectScene& currentScene)
 {
     int _x = 0;
     int _y = 0;
-
+    vector <EsignColumn> columns;
     for (int j=0; j <fixtures.size(); j++) { //8개
        for (int pid=0; pid < PORT_COUNT; pid++) {
-           mazeLeds = getEsignFixtures()[j].getEsignPorts()[pid].getEsignLeds();
-           for (int i=0; i < CLUSTER_COUNT; i++ ) {
-               _x = mazeLeds[i].getX();
-               _y = mazeLeds[i].getY();
+           columns = getEsignFixtures()[j].getEsignPorts()[pid].getEsignColumns();
+           for (int i=0; i < columns.size(); i++ ) {
+               _x = columns[i].getX();
+               _y = columns[i].getY();
                ofColor _c = currentScene.getColor(_x,_y);
-               mazeLeds[i].setColor(_c.r, _c.g, _c.b,0.3);
+               columns[i].setColor(4,_c.r, _c.g, _c.b);
+               columns[i].setColor(3,_c.r, _c.g, _c.b);               
+               columns[i].setColor(2,0,0,0);
+               columns[i].setColor(1,_c.r,_c.g,_c.b);
+               columns[i].setColor(0,0,0,0);               
            }
        }
    }

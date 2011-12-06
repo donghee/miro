@@ -94,7 +94,7 @@ void EffectSceneShout::draw(float alpha){
              ofCircle(x,y,45);
         }
         ofSetColor(0,0,0);             
-        ofCircle(x,y,20);             
+        ofCircle(x,y,17);             
     }
     ofPopStyle();    
     ofPopMatrix();
