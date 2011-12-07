@@ -16,6 +16,7 @@ class MazeLight
         void setColor(int fixtureId, int portId, int columnId, uint8_t r, uint8_t g, uint8_t b);
         void setColor(MovieScene& currentScene);
         void setColor(EffectScene& currentScene);
+        void setColor(EffectScene& currentScene, int height);        
         void showMap(bool on);
         void showLed(bool on);
 

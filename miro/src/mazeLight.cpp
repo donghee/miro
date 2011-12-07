@@ -175,11 +175,35 @@ void MazeLight::setColor(EffectScene& currentScene)
                _x = columns[i].getX();
                _y = columns[i].getY();
                ofColor _c = currentScene.getColor(_x,_y);
+               //               getSize();
                columns[i].setColor(4,_c.r, _c.g, _c.b);
                columns[i].setColor(3,_c.r, _c.g, _c.b);               
                columns[i].setColor(2,0,0,0);
                columns[i].setColor(1,_c.r,_c.g,_c.b);
                columns[i].setColor(0,0,0,0);               
+           }
+       }
+   }
+}
+
+void MazeLight::setColor(EffectScene& currentScene, int height)
+{
+    int _x = 0;
+    int _y = 0;
+    vector <EsignColumn> columns;
+    for (int j=0; j <fixtures.size(); j++) { //8개
+       for (int pid=0; pid < PORT_COUNT; pid++) {
+           columns = getEsignFixtures()[j].getEsignPorts()[pid].getEsignColumns();
+           for (int i=0; i < columns.size(); i++ ) {
+               _x = columns[i].getX();
+               _y = columns[i].getY();
+               ofColor _c = currentScene.getColor(_x,_y);
+               for (int z=0; z<columns[i].getSize(); z++) {
+                   columns[i].setColor(z,_c.r, _c.g, _c.b);
+                   if (z > height-1) {
+                       columns[i].setColor(z,0,0,0);
+                   }
+               }
            }
        }
    }

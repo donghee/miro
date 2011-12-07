@@ -163,3 +163,25 @@
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
+<COLUMN>
+    <ID>15</ID>
+    <TOPCHANNEL>138</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>353</X>
+    <Y>437</Y>
+    <DIRECTION>0</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>
+<COLUMN>
+    <ID>16</ID>
+    <TOPCHANNEL>153</TOPCHANNEL>
+    <SIZE>8</SIZE>
+    <X>352</X>
+    <Y>446</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>

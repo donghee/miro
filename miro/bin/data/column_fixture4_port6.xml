@@ -152,3 +152,14 @@
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
+<COLUMN>
+    <ID>14</ID>
+    <TOPCHANNEL>149</TOPCHANNEL>
+    <SIZE>10</SIZE>
+    <X>450</X>
+    <Y>345</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>

@@ -196,3 +196,14 @@
     <GREEN>0</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
+<COLUMN>
+    <ID>18</ID>
+    <TOPCHANNEL>175</TOPCHANNEL>
+    <SIZE>6</SIZE>
+    <X>385</X>
+    <Y>559</Y>
+    <DIRECTION>1</DIRECTION>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
+</COLUMN>

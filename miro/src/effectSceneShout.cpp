@@ -89,7 +89,7 @@ void EffectSceneShout::draw(float alpha){
              if ((int(ofGetFrameRate()) % 2) == 0) {            
                  ofSetColor(0,0,0);
              } else {
-                 ofSetColor(0,100,100);
+                 ofSetColor(255,255,255);
              }
              ofCircle(x,y,45);
         }

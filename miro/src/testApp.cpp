@@ -45,7 +45,7 @@ void testApp::controlGui_bind()
 
 void testApp::sceneManager_updateShout()
 {
-        for (int i=0 ; i <NUMBER_OF_SHOUT; i++) {
+    for (int i=0 ; i <NUMBER_OF_SHOUT; i++) {
         sceneManager.setShoutEffect(i,sceneEvent.getMicLevel(i), sceneEvent.getShoutEffectControl(i));
     }
 }
@@ -65,7 +65,8 @@ void testApp::update(){
 void testApp::draw(){
     sceneManager.draw();
     // mazeLight.setColor(*currentScene);
-    mazeLight.setColor(*currentEffect);
+    // mazeLight.setColor(*currentEffect);
+    mazeLight.setColor(*currentEffect, 5-int(sceneEvent.getMicLevel(1)/4));        
     mazeLight.draw();
     sceneEvent.draw();
 
@@ -120,11 +121,11 @@ void testApp::mouseDragged(int x, int y, int button){
 
 void testApp::mousePressed(int x, int y, int button){
     // 실수 잘해서 꺼놈. 메뉴로 활성화 가능하게 만들어야 겠다.
-    // if (x < 1024 && y <768) {
-    //     mazeLight.addLight(fixtureNumber,portNumber ,x,y,columnLEDNumber, direction);
-    //     cout << "Fixture Number: ";
-    //     cout << fixtureNumber << " Port Number: " << portNumber<< " LED Number: " << columnLEDNumber << std::endl;
-    // }
+     if (x < 1024 && y <768) {
+         mazeLight.addLight(fixtureNumber,portNumber ,x,y,columnLEDNumber, direction);
+         cout << "Fixture Number: ";
+         cout << fixtureNumber << " Port Number: " << portNumber<< " LED Number: " << columnLEDNumber << std::endl;
+     }
 }
 
 
