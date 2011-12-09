@@ -16,9 +16,9 @@
     <X>99</X>
     <Y>651</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>219</RED>
-    <GREEN>196</GREEN>
-    <BLUE>154</BLUE>
+    <RED>144</RED>
+    <GREEN>24</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>2</ID>
@@ -38,9 +38,9 @@
     <X>106</X>
     <Y>670</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>255</RED>
-    <GREEN>188</GREEN>
-    <BLUE>171</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>4</ID>
@@ -49,8 +49,8 @@
     <X>114</X>
     <Y>672</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
-    <GREEN>0</GREEN>
+    <RED>144</RED>
+    <GREEN>24</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -60,9 +60,9 @@
     <X>122</X>
     <Y>680</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>255</RED>
-    <GREEN>188</GREEN>
-    <BLUE>187</BLUE>
+    <RED>144</RED>
+    <GREEN>24</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>6</ID>
@@ -71,8 +71,8 @@
     <X>132</X>
     <Y>676</Y>
     <DIRECTION>1</DIRECTION>
-    <RED>0</RED>
-    <GREEN>0</GREEN>
+    <RED>144</RED>
+    <GREEN>24</GREEN>
     <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
@@ -82,9 +82,9 @@
     <X>140</X>
     <Y>668</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>255</RED>
-    <GREEN>202</GREEN>
-    <BLUE>193</BLUE>
+    <RED>144</RED>
+    <GREEN>24</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>8</ID>
@@ -104,9 +104,9 @@
     <X>160</X>
     <Y>665</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>255</RED>
-    <GREEN>217</GREEN>
-    <BLUE>205</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>10</ID>
@@ -126,9 +126,9 @@
     <X>179</X>
     <Y>674</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>240</RED>
-    <GREEN>165</GREEN>
-    <BLUE>133</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>12</ID>
@@ -148,9 +148,9 @@
     <X>188</X>
     <Y>688</Y>
     <DIRECTION>0</DIRECTION>
-    <RED>255</RED>
-    <GREEN>230</GREEN>
-    <BLUE>208</BLUE>
+    <RED>0</RED>
+    <GREEN>0</GREEN>
+    <BLUE>0</BLUE>
 </COLUMN>
 <COLUMN>
     <ID>14</ID>
